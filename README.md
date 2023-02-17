@@ -1,10 +1,14 @@
-<h1 align="center">Eduarda Candido CV</h1>
+<h1 align="center">Eduarda Candido's CV</h1>
 
 Project - User-Centric Frontend Development - Code Institute.
 
 [View the live project here.](https://codeinstitute.net)
 
-This is the main marketing website for Eduarda Candido's work. As a beginner web developer she desired having an easy way to show her work for new contractors. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential recruiters and clients.
+This is the main marketing website for Eduarda Candido's work. As a beginner web developer she desired having an easy way to show her work for new contractors.
+
+The site will be targeted toward business owners, or anyone else looking for a web developer to build a website for their any purpose. 
+
+It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential recruiters and clients.
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
@@ -12,25 +16,27 @@ This is the main marketing website for Eduarda Candido's work. As a beginner web
 
 -   ### User stories
 
-    -   #### First Time Visitor Goals
-
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
-    -   #### Returning Visitor Goals
-
-        1. As a Returning Visitor, I want to find information about .
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+    * As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
+    * As a user I want to find information about their education, skills and experience.
+    * As a user I want to find their previous projects easily.
+    * As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
+    * As a user I want to be able to find their contact details and social media links easily to get in touch.
+    * As a user I want to be able to download their CV easily without many clicks.
+    * As a user I want to be able to access this website on my mobile device or table.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The five main colours used are:
+        #ffffff white 
+        #BFD7EA lapis lazuli 
+        #376996 columbia blue 
+        #03045E federal blue 
+        #000000 black
+        -   The palette has been chosen for the color blue usually calling to mind a feeling of peace, order and security. Also for being seen as a sign of reliability, professionalism and stability, often bringing trust from users to content. 
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Georgia font is the main font used throughout the whole website with 'Times New Roman' and then Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Georgia is a serif font used frequently in resumes, so it is both easilly readable and appropriate.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important. The large background image is designed to be relaxing and make the user feel confortable. It also has a professional, serene aesthetic still keeping within the palette.
 
 *   ### Wireframes
 
@@ -57,20 +63,18 @@ This is the main marketing website for Eduarda Candido's work. As a beginner web
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Comfortaa' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [Gimp:](https://www.gimp.org/)
+    - Gimp was used to resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -83,26 +87,34 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+-   #### User Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    * As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
+    * As a user I want to find information about them as well as their education, skills and experience.
+    * As a user I want to find their previous projects easily.
+    * As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
+    * As a user I want to be able to find their contact details and social media links easily to get in touch.
+    * As a user I want to be able to download their CV easily without many clicks.
+    * As a user I want to be able to access this website on my mobile device or table.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+    1.  As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+        * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Serene Image with Text to call the atention and show the purpose.
+        
+    2. As a user I want to find information about them as well as their education, skills and experience.
+        * As soon as the user starts srcolling there are the developer's picture and personal details.
+        * The user can continue scrolling down to find more information about the developer's skill, education and experience.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+    3. As a user I want to find their previous projects easily.
+
+        * The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        * At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
         3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+    3. As a First Time Visitor, I want to be able to easily navigate throughout the site to find previous projects to ensure I like and approve their work style and also to contact for project request if their work interested me.
         1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
         2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
         3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-
--   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
 
@@ -121,21 +133,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
         2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
         3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
@@ -211,8 +208,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Original wireframes were created with [Balsamiq](https://balsamiq.com/wireframes/)
 
 ### Code
-
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
