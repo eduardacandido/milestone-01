@@ -65,18 +65,25 @@ It is designed to be responsibe and accessible on a range of devices, making it 
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Comfortaa' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
+1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+1. [GitHub Desktop:](https://desktop.github.com/)
+    - GitHub Desktop was used for version control saving, commiting and pushing to GitHub.
+1. [VS Code:](https://code.visualstudio.com/)
+    - Visual Studio Code was used to write, format the code and README for the project.
 1. [Gimp:](https://www.gimp.org/)
     - Gimp was used to resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Google Chrome DevTools:](https://developer.chrome.com/docs/devtools/)
+    - Google Chrome DevTools was used for debugging.
 
 ## Testing
 
@@ -97,42 +104,33 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     * As a user I want to be able to download their CV easily without many clicks.
     * As a user I want to be able to access this website on my mobile device or table.
 
-    1.  As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
-
-        * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Serene Image with Text to call the atention and show the purpose.
+    1.  As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site.
+        * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Serene Image with Text to call the atention and show the purpose of the website.
         
     2. As a user I want to find information about them as well as their education, skills and experience.
         * As soon as the user starts srcolling there are the developer's picture and personal details.
         * The user can continue scrolling down to find more information about the developer's skill, education and experience.
 
     3. As a user I want to find their previous projects easily.
-
-        * The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
+        * The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly, including portfolio page with projects.
         * At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
-    3. As a First Time Visitor, I want to be able to easily navigate throughout the site to find previous projects to ensure I like and approve their work style and also to contact for project request if their work interested me.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    4. As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
+        * There is a navigation bar on top of each page with a Contact link which sends the user from any page of the site directly to our Contact page, where they will find a form to send project requests.
+        * They can also email projects requests using the email provided in the 'Home' and 'Contact' pages.
+        * The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    5. As a user I want to be able to find their contact details and social media links easily to get in touch.
+        * The user can scroll to the bottom of any page on the site to locate social media links in the footer.
+        * Contact details as phone number and email address can be found with the personal details in the home page as well as in the contact page.
+        * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+    
+    6. As a user I want to be able to download their CV easily without many clicks.
+        * The navigation bar clearly highlights the 'Download CV' Page.
+        * Alternatively, they can scroll to the bottom of every page where there is also a 'Download' button, which like the link in the navigation bar, will open in a new tab to ensure they can get back to the website easily.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+    7. As a user I want to be able to access this website on my mobile device or table.
+        * The website is completely responsive and can accessed from any device.
 
 ### Further Testing
 
