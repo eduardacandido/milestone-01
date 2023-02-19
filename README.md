@@ -10,8 +10,6 @@ The site will be targeted toward business owners, or anyone else looking for a w
 
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential recruiters and clients.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
-
 ## User Experience (UX)
 
 -   ### User stories
