@@ -1,4 +1,4 @@
-<h1 align="center">Eduarda Candido's CV</h1>
+<h1 align="center">Eduarda Candido Portfolio</h1>
 
 Project - User-Centric Frontend Development - Code Institute.
 
