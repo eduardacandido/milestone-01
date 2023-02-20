@@ -1,4 +1,4 @@
-<h1 align="center">Eduarda Candido's CV</h1>
+<h1 align="center">Eduarda Candido's Portfolio</h1>
 
 Project - User-Centric Frontend Development - Eduarda Candido's Portfolio.
 
@@ -27,11 +27,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -   ### Design
     -   #### Colour Scheme
         -   The five main colours used are:
-        #ffffff white 
-        #BFD7EA lapis lazuli 
-        #376996 columbia blue 
-        #03045E federal blue 
-        #000000 black
+![image](https://user-images.githubusercontent.com/101809642/220096450-53ac970f-ed24-4a18-97bf-82390b2921a4.png)
         -   The palette has been chosen for the color blue usually calling to mind a feeling of peace, order and security. Also for being seen as a sign of reliability, professionalism and stability, often bringing trust from users to content. 
     -   #### Typography
         -   The Georgia font is the main font used throughout the whole website with 'Times New Roman' and then Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Georgia is a serif font used frequently in resumes, so it is both easilly readable and appropriate.
@@ -42,9 +38,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
     -   Desktop Wireframe - [View](https://balsamiq.cloud/s7dsim5/p20j7pm/r2278)
 
-    -   Tablet Wireframe - [View](https://github.com/)
+    -   Tablet Wireframe - [View](https://balsamiq.cloud/s7dsim5/p20j7pm/rA438)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Mobile Wireframe - [View](https://balsamiq.cloud/s7dsim5/p20j7pm/rD3B7)
 
 ## Features
 
