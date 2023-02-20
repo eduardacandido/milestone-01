@@ -1,16 +1,16 @@
-<h1 align="center">Eduarda Candido's CV</h1>
+<h1 align="center">Eduarda Candido's Portfolio</h1>
 
-Project - User-Centric Frontend Development - Code Institute.
+Project - User-Centric Frontend Development - Eduarda Candido's Portfolio.
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://eduardacandido.github.io/Milestone-1/)
 
 This is the main marketing website for Eduarda Candido's work. As a beginner web developer she desired having an easy way to show her work for new contractors.
 
-The site will be targeted toward business owners, or anyone else looking for a web developer to build a website for their any purpose. 
+The site will be targeted toward business owners, or anyone else looking for a web developer to build a website for any purpose. 
 
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential recruiters and clients.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src=""></h2>
 
 ## User Experience (UX)
 
@@ -40,11 +40,11 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Desktop Wireframe - [View](https://balsamiq.cloud/s7dsim5/p20j7pm/r2278)
+
+    -   Tablet Wireframe - [View](https://github.com/)
 
     -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
