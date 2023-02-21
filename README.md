@@ -10,7 +10,7 @@ The site will be targeted toward business owners, or anyone else looking for a w
 
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential recruiters and clients.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src=""></h2>
 
 ## User Experience (UX)
 
@@ -61,7 +61,6 @@ It is designed to be responsibe and accessible on a range of devices, making it 
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Comfortaa' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
@@ -85,8 +84,8 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
 
 ### Testing User Stories from User Experience (UX) Section
 

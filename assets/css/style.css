@@ -15,3 +15,8 @@
         --font1: font-family: 'Comfortaa', cursive;
         --font2: ;
 }
+
+* {
+        margin: 0;
+        padding: 0;
+}
