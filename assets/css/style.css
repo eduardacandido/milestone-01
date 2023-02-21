@@ -12,9 +12,9 @@
         --shadow: #00000067;
 
         /*typography*/
-        --font1: font-family: Georgia, 'Times New Roman', Times, serif;
-        --font2: font-family: 'Comfortaa', cursive;
-        --font3: font-family: 'Oswald', sans-serif;;
+        --font1: Georgia, 'Times New Roman', Times, serif;
+        --font2: 'Comfortaa', cursive;
+        --font3: 'Oswald', sans-serif;;
 }
 
 * {
@@ -34,6 +34,11 @@ main {
         margin: 0 auto;
 }
 
+a#logo {
+        font-family: var(--font2);
+        color: #555555;
+}
+
 #bg-header {
         width: 100%;
         height: 400px;
@@ -47,6 +52,10 @@ main {
         background-color: #376a96bc;
         color: #dceeff;
         display: inline-block;
+        font-family: var(--font3);
+        letter-spacing: 0.1em;
+        text-transform: capitalize;
+        font-variant: small-caps;
         font-size: 1.7rem;
         padding: 1rem;
         margin: 0 auto;
@@ -70,24 +79,36 @@ main {
         transform: translate(-50%,-50%);
 }
 
-#container-personal {
+.section {
         background-color: var(--white);
-        color: #353535;
+        color: #555555;
         max-width: 400px;
         display: block;
-        padding: 20px 15px;
         margin: 0 auto;
+        margin-bottom: 40px;
         border-radius: 5px;
-        margin-bottom: 30px;
 }
 
-#container-personal p {
+.section p {
         text-indent: 3px;
         letter-spacing: 0.15em;
         text-transform: capitalize;
         font-variant: small-caps;
         font-family: var(--font3);
-        color: #777777;
+        font-weight: 600;
+}
+
+.section h1 {
+        letter-spacing: 0.08em;
+}
+
+#container-personal {
+        padding: 20px 10px;
+
+}
+
+#name-personal {
+        padding: 0px 10px;
 }
 
 .list-personal {
@@ -97,15 +118,25 @@ main {
 }
 
 #label-personal {
-        width: 33.3%;
+        width: 30%;
 }
 
 #details-personal {
-        width: 66.6%;
+        width: 70%;
 }
 
-#about {
-        width: 400px;
+.about-section {
+
+}
+
+.about-section > ul {
+        list-style-type: none;
+        margin: -25px 0px;
+        padding: 10px;
+}
+
+.about-section h2 {
+        font-size: 1.2rem;
 }
 
 .row {
