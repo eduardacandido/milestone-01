@@ -9,7 +9,7 @@
         --gray: #555555;
         --white: #f5f5f5;
         --blue1: #BFD7EA;
-        --blue2: #376996;
+        --blue2: #1E405C;
         --blue3: #162B3B;
 
         /*typography*/
@@ -192,6 +192,10 @@ a#logo {
         color: var(--gray);
 }
 
+#link-github {
+        padding: 0px 0px 20px 0px;
+}
+
 #form {
         max-width: 320px;
         margin: auto;
@@ -207,8 +211,9 @@ a#logo {
         display: block;
         border: 1px solid var(--blue1);
         width: 100%;
+        border-radius: 5px;
         padding: 5px;
-        margin: 5px 0 20px 0;
+        margin: 0 0 25px 0;
         color: var(--gray);
 }
 
@@ -225,6 +230,7 @@ a#logo {
         background-color: var(--blue2);
         border: 1px solid var(--blue1);
         color: var(--white);
+        border-radius: 5px;
         padding: 5px;
 }
 
@@ -233,10 +239,6 @@ a#logo {
         border: 1px solid var(--blue2);
         color: var(--blue2);
 
-}
-
-#link-github {
-        padding: 0px 0px 20px 0px;
 }
 
 .footer-section {
@@ -263,6 +265,19 @@ a#logo {
         padding: 10px;
         text-decoration: none;
         color: var(--blue1);
+}
+
+.footer-section input {
+        padding: 3px;
+        color: var(--blue3);
+        font-weight: 500;
+        background-color: var(--blue1);
+        box-shadow: 5px 5px var(--shadow);
+}
+
+.footer-section img {
+        width: 25px;
+        height: 25px;
 }
 
 .row {
