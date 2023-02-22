@@ -4,13 +4,13 @@
 
 :root {
         /*colors*/
-        --shadow: #00000067;
+        --shadow: #00000023;
         --black: #333333;
         --gray: #555555;
         --white: #f5f5f5;
         --blue1: #BFD7EA;
         --blue2: #376996;
-        --blue3: #03045E;
+        --blue3: #162B3B;
 
         /*typography*/
         --font1: Georgia, 'Times New Roman', Times, serif;
@@ -163,9 +163,12 @@ a#logo {
 
 .section > h3 {
         text-align: center;
-        padding: 10px;
+        padding: 30px 10px 20px 10px;
         font-size: 1.3rem;
+        letter-spacing: 0.15em;        
         color: var(--black);
+        font-family: var(--font1);
+        text-shadow: 2px 2px var(--shadow);
 }
 
 #project-container {
@@ -175,6 +178,91 @@ a#logo {
 
 #project-container img {
         max-width: 320px;
+        border: 1px solid var(--blue1);
+        box-shadow: 10px 10px 10px var(--shadow);
+}
+
+.project-link {
+        margin: 10px auto;
+        text-align: center;
+}
+
+.project-link a {
+        text-decoration: none;
+        color: var(--gray);
+}
+
+#form {
+        max-width: 320px;
+        margin: auto;
+        padding-bottom: 30px;
+        
+}
+
+.form-label {
+        color: var(--gray);
+}
+
+.form-field {
+        display: block;
+        border: 1px solid var(--blue1);
+        width: 100%;
+        padding: 5px;
+        margin: 5px 0 20px 0;
+        color: var(--gray);
+}
+
+.form-field:hover {
+        border-color: var(--blue2);
+}
+
+#submit-btn {
+        width: 50%;
+        margin: auto;
+}
+
+#submit-btn input {
+        background-color: var(--blue2);
+        border: 1px solid var(--blue1);
+        color: var(--white);
+        padding: 5px;
+}
+
+#submit-btn input:hover {
+        background-color: var(--blue1);
+        border: 1px solid var(--blue2);
+        color: var(--blue2);
+
+}
+
+#link-github {
+        padding: 0px 0px 20px 0px;
+}
+
+.footer-section {
+        background-color: var(--blue3);
+        color: var(--blue1);
+        height: 100px;
+        text-align: center;
+}
+
+#footer-link {
+        position: relative;
+}
+
+#footer-link p {
+        position: relative;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+}
+
+#footer-link a {
+        display: inline;
+        padding: 10px;
+        text-decoration: none;
+        color: var(--blue1);
 }
 
 .row {

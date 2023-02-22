@@ -13,6 +13,8 @@
 </head>
 
 <body>
+    <!--Navbar code taken from bootstrap-->
+
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#home" id="logo">Eduarda Candido</a>
@@ -119,11 +121,16 @@
             <div class="section">
                 <h3>Coffee Shop Project</h3>
                 <div id="project-container">
-                    <a href="https://eduardacandido.github.io/coffee-shop-01/index.html" target="frame">
-                        <img src="assets/images/coffee-shop-home.jpg" alt="image of the home page of a coffee shop website">
+                    <a href="https://eduardacandido.github.io/coffee-shop-01/index.html" target="_blank">
+                        <img src="assets/images/coffee-shop-home.jpg"
+                            alt="Image of the home page of a coffee shop website">
                     </a>
-
-                    <a href="https://eduardacandido.github.io/coffee-shop-01/index.html" target="name">Check it out!</a>
+                    <p class="project-link">
+                        <a href="https://eduardacandido.github.io/coffee-shop-01/index.html" target="_blank">Check it out!</a>
+                    </p>
+                    <p class="project-link" id="link-github">
+                        <a href="https://github.com/eduardacandido" target="_blank">For more projects, check out my GitHub Repository</a>
+                    </p>
                 </div>
             </div>
         </section>
@@ -131,21 +138,45 @@
         <section id="contact"> <!--contact container-->
             <h2 class="titles">Contact Me</h2>
             <div class="section"> <!--contact form-->
-
+                <h3>Create a website with me!</h3>
+                <form action="https://formdump.codeinstitute.net" method="post" id="form">
+                    <div>
+                        <label for="name-field" class="form-label">Name</label>
+                        <input id="name-field" type="text" name="full_name" required class="form-field">
+                    </div>
+                    <div>
+                        <label for="email-field" class="form-label">Email</label>
+                        <input id="email-field" type="email" name="email" required class="form-field">
+                    </div>
+                    <div>
+                        <label for="comment" class="form-label">Project Summary</label>
+                        <input id="comment" type="textarea" name="comment" required class="form-field" id="form-textarea">
+                    </div>
+                    <div id="submit-btn">
+                        <input type="submit" value="Send Project Request">
+                    </div>
+                </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <div> <!--page links-->
+        <div class="footer-section" id="footer-link"> <!--page links-->
+            <p>
+                <a class="project-link" aria-current="page" href="#about"
+                aria-label="Go to the top of the page">Home</a>
+                <a href="#">-</a>
+                <a class="project-link" href="#projects" aria-label="Go to projects section">Projects</a>
+                <a href="#">-</a>
+                <a class="project-link" href="#contact" aria-label="Go to contact information section">Contact</a>
+            </p>
+        </div>
+
+        <div class="footer-section"> <!--social links-->
 
         </div>
 
-        <div> <!--social links-->
-
-        </div>
-
-        <div> <!--About-->
+        <div class="footer-section"> <!--About-->
 
         </div>
     </footer>
