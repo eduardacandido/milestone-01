@@ -4,12 +4,13 @@
 
 :root {
         /*colors*/
+        --shadow: #00000067;
+        --black: #333333;
+        --gray: #555555;
         --white: #f5f5f5;
         --blue1: #BFD7EA;
         --blue2: #376996;
         --blue3: #03045E;
-        --black: #080808;
-        --shadow: #00000067;
 
         /*typography*/
         --font1: Georgia, 'Times New Roman', Times, serif;
@@ -28,7 +29,7 @@ body {
 }
 
 main {
-        color: #333333;
+        color: var(--black);
         font-family: var(--font1);
         max-width: 810px;
         margin: 0 auto;
@@ -36,7 +37,7 @@ main {
 
 a#logo {
         font-family: var(--font2);
-        color: #555555;
+        color: var(--gray);
 }
 
 #bg-header {
@@ -50,7 +51,7 @@ a#logo {
 
 #bg-text {
         background-color: #376a96bc;
-        color: #dceeff;
+        color: var(--white);
         display: inline-block;
         font-family: var(--font3);
         letter-spacing: 0.1em;
@@ -67,12 +68,12 @@ a#logo {
 }
 
 #profile-picture {
-        background: white url(../images/eduarda_profile_picture.jpg) center center no-repeat local;
+        background: var(--white) url(../images/eduarda_profile_picture.jpg) center center no-repeat local;
         background-size: cover;
         border-radius: 50%;
         width: 250px;
         height: 250px;
-        border: 2px solid white;
+        border: 2px solid var(--white);
         position: absolute;
         top: 100%;
         left: 50%;
@@ -81,20 +82,20 @@ a#logo {
 
 .section {
         background-color: var(--white);
-        color: #555555;
+        color: var(--gray);
         max-width: 400px;
         display: block;
-        margin: 0 auto;
-        margin-bottom: 40px;
+        margin: 0 auto 40px auto;
         border-radius: 5px;
 }
 
-.section p {
+.section h2 {
         text-indent: 3px;
         letter-spacing: 0.15em;
         text-transform: capitalize;
         font-variant: small-caps;
         font-family: var(--font3);
+        font-size: 1.2rem;
         font-weight: 600;
 }
 
@@ -126,7 +127,7 @@ a#logo {
 }
 
 .about-section {
-
+        list-style-position: inside;
 }
 
 .about-section > ul {
@@ -135,8 +136,45 @@ a#logo {
         padding: 10px;
 }
 
-.about-section h2 {
+.about-section h3 {
+        margin: 10px 0px 0px 10px;
         font-size: 1.2rem;
+        color: var(--black);
+}
+
+.about-section li {
+        line-height: 2.5rem;
+}
+
+.titles {
+        display: block;
+        text-align: center;
+        background-color: var(--blue2);
+        color: var(--blue1);
+        padding: 10px;
+        margin: 50px 0;
+        letter-spacing: 0.15em;
+        text-transform: capitalize;
+        font-variant: small-caps;
+        font-family: var(--font3);
+        font-size: 1.4rem;
+        font-weight: 600;
+}
+
+.section > h3 {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.3rem;
+        color: var(--black);
+}
+
+#project-container {
+        max-width: 320px;
+        margin: auto;
+}
+
+#project-container img {
+        max-width: 320px;
 }
 
 .row {
@@ -150,9 +188,6 @@ a#logo {
 }
 
 @media screen and (min-width: 320px) {
-        .col {
-                flex: 1;
-        }
 }
 
 @media screen and (min-width: 768px) {
