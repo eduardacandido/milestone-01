@@ -4,7 +4,7 @@
 
 :root {
         /*colors*/
-        --shadow: #00000023;
+        --shadow: #00000046;
         --black: #333333;
         --gray: #555555;
         --white: #f5f5f5;
@@ -26,16 +26,17 @@
 
 body {
         background-color: var(--blue1);
+        max-width: 100%;
 }
 
 main {
         color: var(--black);
         font-family: var(--font1);
-        max-width: 810px;
+        max-width: 100%;
         margin: 0 auto;
 }
 
-a#logo {
+a#home {
         font-family: var(--font2);
         color: var(--gray);
 }
@@ -89,6 +90,10 @@ a#logo {
         border-radius: 5px;
 }
 
+.section h1 {
+        letter-spacing: 0.08em;
+}
+
 .section h2 {
         text-indent: 3px;
         letter-spacing: 0.15em;
@@ -97,10 +102,6 @@ a#logo {
         font-family: var(--font3);
         font-size: 1.2rem;
         font-weight: 600;
-}
-
-.section h1 {
-        letter-spacing: 0.08em;
 }
 
 #container-personal {
@@ -114,11 +115,13 @@ a#logo {
 
 .list-personal {
         list-style-type: none;
-        text-indent: -20px;
+        font-size: 0.85rem;
         line-height: 2.5rem;
+        padding: 0;
 }
 
 #label-personal {
+        text-indent: 10px;
         width: 30%;
 }
 
@@ -145,6 +148,8 @@ a#logo {
 .about-section li {
         line-height: 2.5rem;
 }
+
+/*project & contact*/
 
 .titles {
         display: block;
@@ -182,6 +187,10 @@ a#logo {
         box-shadow: 10px 10px 10px var(--shadow);
 }
 
+#project-container img:hover {
+        border: 1px solid var(--blue3);
+}
+
 .project-link {
         margin: 10px auto;
         text-align: center;
@@ -191,9 +200,18 @@ a#logo {
         text-decoration: none;
         color: var(--gray);
 }
+.project-link a:hover {
+        text-decoration: underline;
+}
 
 #link-github {
-        padding: 0px 0px 20px 0px;
+        background-color: var(--gray);
+        border-radius: 0px 0px 5px 5px;
+}
+
+#link-github a {
+        color: var(--white);
+        margin-bottom: 20px;
 }
 
 #form {
@@ -205,6 +223,8 @@ a#logo {
 
 .form-label {
         color: var(--gray);
+        font-size: 0.9rem;
+        text-indent: 2px;
 }
 
 .form-field {
@@ -232,6 +252,7 @@ a#logo {
         color: var(--white);
         border-radius: 5px;
         padding: 5px;
+        box-shadow: 5px 5px 10px var(--shadow);
 }
 
 #submit-btn input:hover {
@@ -241,11 +262,17 @@ a#logo {
 
 }
 
-.footer-section {
+/*footer*/
+
+footer {
         background-color: var(--blue3);
         color: var(--blue1);
-        height: 100px;
+        width: 100%;
         text-align: center;
+}
+
+.footer-section p {
+        font-size: 1.1rem;
 }
 
 #footer-link {
@@ -254,7 +281,7 @@ a#logo {
 
 #footer-link p {
         position: relative;
-        top: 35%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%,-50%);
 
@@ -267,17 +294,50 @@ a#logo {
         color: var(--blue1);
 }
 
+#footer-link a:hover {
+        text-decoration: underline;
+        text-decoration-color: var(--blue1);
+}
+
+.footer-section {
+        display: block;
+        width: 100%;
+        height: 100px;
+}
+
+.footer-section p > img {
+        width: 20px;
+        height: 20px;
+        padding: 1px;
+        border-radius: 50%;
+}
+
 .footer-section input {
         padding: 3px;
-        color: var(--blue3);
         font-weight: 500;
+        border-radius: 5px;
+        color: var(--blue1);
+        border: 1px solid var(--blue2);
+        background-color: var(--blue2);
+        box-shadow: 5px 5px 5px var(--shadow);
+}
+
+.footer-section input:hover {
+        color: var(--blue2);
+        border: 1px solid var(--blue2);
         background-color: var(--blue1);
-        box-shadow: 5px 5px var(--shadow);
 }
 
 .footer-section img {
-        width: 25px;
-        height: 25px;
+        width: 27px;
+        height: 27px;
+        margin: 0 15px;
+        border-radius: 5px;
+        background-color: var(--blue1);
+}
+
+.footer-section img:hover {
+        border: 1px solid var(--blue1);
 }
 
 .row {
@@ -288,9 +348,6 @@ a#logo {
 
 .col {
         flex-basis: 100%;
-}
-
-@media screen and (min-width: 320px) {
 }
 
 @media screen and (min-width: 768px) {
