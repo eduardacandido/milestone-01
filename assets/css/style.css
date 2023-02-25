@@ -341,15 +341,16 @@ footer {
 }
 
 #btn-sticky {
-        padding: 3px;
+        padding: 5px;
+        font-size: 0.9rem;
         font-weight: 500;
         margin-left: 10px;
         border-radius: 5px;
         color: var(--blue1);
+        text-decoration: none;
         font-family: var(--font2);
         border: 1px solid var(--blue2);
-        background-color: 
-        #1e405cd5;
+        background-color: #1e405cd5;
         box-shadow: 5px 5px 5px var(--shadow);
 }
 
