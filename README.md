@@ -1,4 +1,4 @@
-<h1 align="center">Eduarda Candido's Portfolio</h1>
+#Eduarda Candido's Portfolio
 
 Project - User-Centric Frontend Development - Eduarda Candido's Portfolio.
 
@@ -9,8 +9,6 @@ This is the main marketing website for Eduarda Candido's work. As a beginner web
 The site will be targeted toward business owners, or anyone else looking for a web developer to build a website for any purpose. 
 
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential recruiters and clients.
-
-<h2 align="center"><img src=""></h2>
 
 ## User Experience (UX)
 
@@ -27,7 +25,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -   ### Design
     -   #### Colour Scheme
         -   The five main colours used are:
-![image](https://user-images.githubusercontent.com/101809642/220096450-53ac970f-ed24-4a18-97bf-82390b2921a4.png)
+![image](https://user-images.githubusercontent.com/101809642/221332952-b8ecfa5c-ad41-4791-8199-59d461c8310c.png)
         -   The palette has been chosen for the color blue usually calling to mind a feeling of peace, order and security. Also for being seen as a sign of reliability, professionalism and stability, often bringing trust from users to content. 
     -   #### Typography
         -   The Georgia font is the main font used throughout the whole website with 'Times New Roman' and then Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Georgia is a serif font used frequently in resumes, so it is both easilly readable and appropriate.
@@ -100,45 +98,43 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     * As a user I want to be able to access this website on my mobile device or table.
 
     1.  As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site.
-        * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Serene Image with Text to call the atention and show the purpose of the website.
+        * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page section of their choice. Underneath there is a Serene Image with Text to call the atention and show the purpose of the website.
         
     2. As a user I want to find information about them as well as their education, skills and experience.
         * As soon as the user starts srcolling there are the developer's picture and personal details.
-        * The user can continue scrolling down to find more information about the developer's skill, education and experience.
+        * The user can continue scrolling down to find more information about the developer's skill, education and experience or click on about button in the navigation bar.
 
     3. As a user I want to find their previous projects easily.
-        * The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly, including portfolio page with projects.
-        * At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+        * The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what the page section they will end up at clearly, including projects section.
+        * At the bottom of the page there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
     4. As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
-        * There is a navigation bar on top of each page with a Contact link which sends the user from any page of the site directly to our Contact page, where they will find a form to send project requests.
-        * They can also email projects requests using the email provided in the 'Home' and 'Contact' pages.
-        * The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        * There is a navigation bar fixed to the top of the page with a Contact link which sends the user from any part of the site directly to our Contact page section, where they will find a form to send project requests.
+        * They can also email projects requests using the email provided in the About page section.
+        * The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
 
     5. As a user I want to be able to find their contact details and social media links easily to get in touch.
-        * The user can scroll to the bottom of any page on the site to locate social media links in the footer.
-        * Contact details as phone number and email address can be found with the personal details in the home page as well as in the contact page.
+        * The user can scroll to the bottom of the page on the site to locate social media links in the footer.
+        * Contact details as phone number and email address can be found with the personal details in the home page section.
         * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
     
     6. As a user I want to be able to download their CV easily without many clicks.
         * The navigation bar clearly highlights the 'Download CV' Page.
-        * Alternatively, they can scroll to the bottom of every page where there is also a 'Download' button, which like the link in the navigation bar, will open in a new tab to ensure they can get back to the website easily.
+        * Alternatively, there is also a 'Download' button fixed to the bottom-left of the page, which like the link in the navigation bar, will open in a new tab to ensure they can get back to the website easily.
 
     7. As a user I want to be able to access this website on my mobile device or table.
-        * The website is completely responsive and can accessed from any device.
+        * The website is completely responsive and can be accessed from any device.
 
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE.
+-   A large amount of testing was done to ensure that all pages sections were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   
 
 ## Deployment
 
@@ -146,25 +142,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/eduardacandido/Milestone-1/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [link](https://eduardacandido.github.io/Milestone-1/) in the "GitHub Pages" section.
 
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/eduardacandido/Milestone-1/)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/eduardacandido/Milestone-1/)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
@@ -172,13 +168,13 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 6. Type `git clone`, and then paste the URL you copied in Step 3.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/eduardacandido/Milestone-1/
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/eduardacandido/Milestone-1/
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
@@ -202,15 +198,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly for navigation bar and to make site responsive.
 
 ### Content
 
 -   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Acknowledgements
 
