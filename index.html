@@ -15,9 +15,9 @@
 <body>
     <!--Navbar code taken from bootstrap-->
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#home" id="home">Eduarda Candido</a>
+            <a class="navbar-brand" href="#home" id="logo">Eduarda Candido</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,8 @@
                         aria-label="Go to the about me section">About</a>
                     <a class="nav-link" href="#projects" aria-label="Go to projects section">Projects</a>
                     <a class="nav-link" href="#contact" aria-label="Go to contact information section">Contact</a>
-                    <a class="nav-link" href="assets/docs/eduarda-candido-cv.pdf" aria-label="Download my CV" target="_blank">Download CV</a>
+                    <a class="nav-link" href="assets/docs/eduarda-candido-cv.pdf" aria-label="Download my CV"
+                        target="_blank">Download CV</a>
                 </div>
             </div>
         </div>
@@ -43,74 +44,64 @@
 
     <main>
         <section>
-            <section class="section" id="container-personal"> <!--personal information-->
-                <div id="name-personal">
-                    <h1>Eduarda Candido</h1>
-                    <h2>Front end developer</h2>
-                    <hr>
-                </div>
-                <div class="row">
-                    <div id="label-personal">
-                        <ul class="list-personal">
-                            <li>Age:</li>
-                            <li>Address:</li>
-                            <li>Email:</li>
-                            <li>Phone:</li>
-                        </ul>
+            <section class="section"> <!--personal information-->
+                <div id="container-personal">
+                    <div id="name-personal">
+                        <h1>Eduarda Candido</h1>
+                        <h2>Front end developer</h2>
+                        <hr>
                     </div>
-                    <div id="details-personal">
-                        <ul class="list-personal">
-                            <li>22</li>
-                            <li>Tangmere Dr, Cardiff, CF5 2PQ</li>
-                            <li>eduardacandido236@gmail.com</li>
-                            <li>+44 7367 392121</li>
-                        </ul>
+                    <div class="row">
+                        <div id="label-personal">
+                            <ul class="list-personal">
+                                <li>Age:</li>
+                                <li>Address:</li>
+                                <li>Email:</li>
+                                <li>Phone:</li>
+                            </ul>
+                        </div>
+                        <div id="details-personal">
+                            <ul class="list-personal">
+                                <li>22</li>
+                                <li>Tangmere Dr, Cardiff, CF5 2PQ</li>
+                                <li>eduardacandido236@gmail.com</li>
+                                <li>+44 7367 392121</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section class="" id="about">
-                <div class="about-section section"> <!--skills container-->
+            <section id="about">
+                <div class="about-section section" id="skill-section"> <!--skills container-->
+                    <h3>Skills</h3>
+                    <hr>
                     <ul>
-                        <li>
-                            <h3>Skills</h3>
-                        </li>
-                        <hr>
-                        <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
                     </ul>
                 </div>
-
-                <div class="about-section section"> <!--education container-->
+                <div id="spacer"></div>
+                <div class="about-section section" id="education-section"> <!--education container-->
+                    <h3>Education</h3>
+                    <hr>
                     <ul>
-                        <li>
-                            <h3>Education</h3>
-                        </li>
-                        <hr>
-                        <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
                     </ul>
                 </div>
             </section>
 
             <section>
                 <div class="about-section section" id="work-section"> <!--work history container-->
+                    <h3>Work History</h3>
+                    <hr>
                     <ul>
-                        <li>
-                            <h3>Work History</h3>
-                        </li>
-                        <hr>
-                        <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
-                        </ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
                     </ul>
                 </div>
             </section>
@@ -126,12 +117,14 @@
                             alt="Image of the home page of a coffee shop website">
                     </a>
                 </div>
-                    <p class="project-link">
-                        <a href="https://eduardacandido.github.io/coffee-shop-01/index.html" target="_blank">Check it out!</a>
-                    </p>
-                    <p class="project-link" id="link-github">
-                        <a href="https://github.com/eduardacandido" target="_blank">For more projects, check out my GitHub Repository</a>
-                    </p>
+                <p class="project-link">
+                    <a href="https://eduardacandido.github.io/coffee-shop-01/index.html" target="_blank">Check it
+                        out!</a>
+                </p>
+                <p class="project-link" id="link-github">
+                    <a href="https://github.com/eduardacandido" target="_blank">For more projects, check out my GitHub
+                        Repository</a>
+                </p>
             </div>
         </section>
 
@@ -139,14 +132,16 @@
             <h2 class="titles">Contact Me</h2>
             <div class="section"> <!--contact form-->
                 <h3>Create a website with me!</h3>
-                <form action="https://formdump.codeinstitute.net" method="post" id="form">
+                <form action="https://formdump.codeinstitute.net" method="post" id="form" target="_blank">
                     <div>
                         <label for="name-field" class="form-label">Name *</label>
-                        <input id="name-field" type="text" name="full_name" autocomplete="name" required class="form-field">
+                        <input id="name-field" type="text" name="full_name" autocomplete="name" required
+                            class="form-field">
                     </div>
                     <div>
                         <label for="email-field" class="form-label">Email *</label>
-                        <input id="email-field" type="email" name="email" autocomplete="email" required class="form-field">
+                        <input id="email-field" type="email" name="email" autocomplete="email" required
+                            class="form-field">
                     </div>
                     <div>
                         <label for="comment" class="form-label">Project Summary *</label>
@@ -163,19 +158,20 @@
     <footer>
         <div class="footer-section" id="footer-link"> <!--page links-->
             <p>
-                <a class="project-link" aria-current="page" href="#home"
-                aria-label="Go to the top of the page">Home</a>
+                <a class="project-link" aria-current="page" href="#home" aria-label="Go to the top of the page"
+                    target="_top">Home</a>
                 <span href="#">-</span>
-                <a class="project-link" href="#projects" aria-label="Go to projects section">Projects</a>
+                <a class="project-link" href="#projects" aria-label="Go to projects section" target="_self">Projects</a>
                 <span href="#">-</span>
-                <a class="project-link" href="#contact" aria-label="Go to contact information section">Contact</a>
+                <a class="project-link" href="#contact" aria-label="Go to contact information section"
+                    target="_self">Contact</a>
             </p>
             <br>
             <hr>
         </div>
         <div class="footer-section"> <!--social links-->
             <p>Download My CV</p>
-            <a href="assets/docs/eduarda-candido-cv.pdf"><input type="button" value="Download"></a>
+            <a href="assets/docs/eduarda-candido-cv.pdf" target="_blank"><input type="button" value="Download"></a>
             <br>
             <hr>
         </div>
@@ -183,11 +179,16 @@
         <div class="footer-section"> <!--About-->
             <p>Social</p>
             <p>
-                <a href="https://www.facebook.com/eduarda.candido.9465/"><img src="assets/icons/square-facebook.svg" alt=""></a>
-                <a href="https://www.instagram.com/_eduardacandido/"><img src="assets/icons/square-instagram.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/eduardacandido/"><img src="assets/icons/linkedin.svg" alt=""></a>
-                <a href="https://github.com/eduardacandido"><img src="assets/icons/square-github.svg" alt=""></a>
-                <a href="https://twitter.com/Eduarda57543552"><img src="assets/icons/square-twitter.svg" alt=""></a>
+                <a href="https://www.facebook.com/eduarda.candido.9465/" target="_blank"><img
+                        src="assets/icons/square-facebook.svg" alt=""></a>
+                <a href="https://www.instagram.com/_eduardacandido/" target="_blank"><img
+                        src="assets/icons/square-instagram.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/eduardacandido/" target="_blank"><img
+                        src="assets/icons/linkedin.svg" alt=""></a>
+                <a href="https://github.com/eduardacandido" target="_blank"><img src="assets/icons/square-github.svg"
+                        alt=""></a>
+                <a href="https://twitter.com/Eduarda57543552" target="_blank"><img src="assets/icons/square-twitter.svg"
+                        alt=""></a>
             </p>
         </div>
     </footer>
