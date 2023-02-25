@@ -14,7 +14,7 @@
 
         /*typography*/
         --font1: Georgia, 'Times New Roman', Times, serif;
-        --font2: 'Comfortaa', cursive;
+        --font2: 'Comfortaa', 'Courier New', Courier, monospace;
         --font3: 'Oswald', sans-serif;;
 }
 
@@ -110,7 +110,6 @@ a#logo {
 
 #container-personal {
         padding: 20px 10px;
-
 }
 
 #name-personal {
@@ -133,8 +132,18 @@ a#logo {
         width: 70%;
 }
 
+.list-personal a {
+        text-decoration: none;
+        color: var(--gray);
+}
+
+.list-personal a:hover {
+        text-decoration: underline;
+}
+
 .about-section {
         text-indent: 10px;
+        padding: 20px 10px;
 }
 
 #about h3, #work-section h3 {
@@ -185,7 +194,7 @@ a#logo {
         letter-spacing: 0.15em;        
         color: var(--black);
         font-family: var(--font1);
-        text-shadow: 2px 2px var(--shadow);
+        text-shadow: 2px 2px 2px var(--shadow);
 }
 
 #project-container {
@@ -258,7 +267,7 @@ a#logo {
         margin: auto;
 }
 
-#submit-btn input {
+.btn {
         background-color: var(--blue2);
         border: 1px solid var(--blue1);
         color: var(--white);
@@ -267,7 +276,7 @@ a#logo {
         box-shadow: 5px 5px 10px var(--shadow);
 }
 
-#submit-btn input:hover {
+.btn:hover {
         background-color: var(--blue1);
         border: 1px solid var(--blue2);
         color: var(--blue2);
@@ -324,20 +333,28 @@ footer {
         border-radius: 50%;
 }
 
-.footer-section input {
+.sticky-section {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 94%;
+        display: inline;
+}
+
+#btn-sticky {
         padding: 3px;
         font-weight: 500;
+        margin-left: 10px;
         border-radius: 5px;
         color: var(--blue1);
+        font-family: var(--font2);
         border: 1px solid var(--blue2);
-        background-color: var(--blue2);
+        background-color: 
+        #1e405cd5;
         box-shadow: 5px 5px 5px var(--shadow);
 }
 
-.footer-section input:hover {
-        color: var(--blue2);
-        border: 1px solid var(--blue2);
-        background-color: var(--blue1);
+#btn-sticky:hover {
+        background-color: var(--blue3);
 }
 
 .footer-section img {
@@ -360,6 +377,25 @@ footer {
 
 .col {
         flex-basis: 100%;
+}
+
+/*page-404-error*/
+
+#bg-header-404 {
+        width: 100%;
+        height: 80vh;
+        background: var(--blue2) url(../images/blue-landscape.jpg) center bottom no-repeat fixed;
+        background-size: cover;
+        position: relative;
+}
+
+#bg-header-404 a {
+        color: var(--white);
+        text-decoration: none;
+}
+
+#bg-header-404 a:hover {
+        text-decoration: underline;
 }
 
 /*mobile devices*/

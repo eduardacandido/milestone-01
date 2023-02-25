@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#home" id="logo">Eduarda Candido</a>
+            <a class="navbar-brand" href="index.html" id="logo">Eduarda Candido</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,6 +41,10 @@
             <div id="profile-picture"></div>
         </div>
     </header>
+    <div class="sticky-section">
+        <a href="assets/docs/eduarda-candido-cv.pdf" target="_blank"><input type="button" value="Download My CV" id="btn-sticky"> <img src="assets/icons/arrow-down-solid.svg" alt="arrow down"></a>
+    </div>
+
 
     <main>
         <section>
@@ -55,17 +59,20 @@
                         <div id="label-personal">
                             <ul class="list-personal">
                                 <li>Age:</li>
-                                <li>Address:</li>
-                                <li>Email:</li>
-                                <li>Phone:</li>
+                                <li><a href="https://goo.gl/maps/dE7tb8ukVcsjUAZp6" target="_blank">Address:</a></li>
+                                <li><a href="mailto:eduardacandido236@gmail.com?subject=Project%20Request%20"
+                                        target="_blank">Email:</a></li>
+                                <li><a href="tel:07367392121" target="_blank">Phone:</a></li>
                             </ul>
                         </div>
                         <div id="details-personal">
                             <ul class="list-personal">
                                 <li>22</li>
-                                <li>Tangmere Dr, Cardiff, CF5 2PQ</li>
-                                <li>eduardacandido236@gmail.com</li>
-                                <li>+44 7367 392121</li>
+                                <li><a href="https://goo.gl/maps/dE7tb8ukVcsjUAZp6" target="_blank">Tangmere Dr,
+                                        Cardiff, CF5 2PQ</a></li>
+                                <li><a href="mailto:eduardacandido236@gmail.com?subject=Project%20Request%20"
+                                        target="_blank">eduardacandido236@gmail.com</a></li>
+                                <li><a href="tel:07367392121" target="_blank">+44 7367 392121</a></li>
                             </ul>
                         </div>
                     </div>
@@ -132,7 +139,7 @@
             <h2 class="titles">Contact Me</h2>
             <div class="section"> <!--contact form-->
                 <h3>Create a website with me!</h3>
-                <form action="https://formdump.codeinstitute.net" method="post" id="form" target="_blank">
+                <form action="thankyou.html" method="post" id="form">
                     <div>
                         <label for="name-field" class="form-label">Name *</label>
                         <input id="name-field" type="text" name="full_name" autocomplete="name" required
@@ -148,7 +155,7 @@
                         <textarea id="comment" name="comment" rows="5" required class="form-field"></textarea>
                     </div>
                     <div id="submit-btn">
-                        <input type="submit" value="Send Project Request">
+                        <input type="submit" value="Send Project Request" class="btn">
                     </div>
                 </form>
             </div>
@@ -160,35 +167,24 @@
             <p>
                 <a class="project-link" aria-current="page" href="#home" aria-label="Go to the top of the page"
                     target="_top">Home</a>
-                <span href="#">-</span>
+                <span>-</span>
                 <a class="project-link" href="#projects" aria-label="Go to projects section" target="_self">Projects</a>
-                <span href="#">-</span>
+                <span>-</span>
                 <a class="project-link" href="#contact" aria-label="Go to contact information section"
                     target="_self">Contact</a>
             </p>
             <br>
             <hr>
         </div>
-        <div class="footer-section"> <!--social links-->
-            <p>Download My CV</p>
-            <a href="assets/docs/eduarda-candido-cv.pdf" target="_blank"><input type="button" value="Download"></a>
-            <br>
-            <hr>
-        </div>
 
-        <div class="footer-section"> <!--About-->
+        <div class="footer-section"> <!--social links-->
             <p>Social</p>
             <p>
-                <a href="https://www.facebook.com/eduarda.candido.9465/" target="_blank"><img
-                        src="assets/icons/square-facebook.svg" alt=""></a>
-                <a href="https://www.instagram.com/_eduardacandido/" target="_blank"><img
-                        src="assets/icons/square-instagram.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/eduardacandido/" target="_blank"><img
-                        src="assets/icons/linkedin.svg" alt=""></a>
-                <a href="https://github.com/eduardacandido" target="_blank"><img src="assets/icons/square-github.svg"
-                        alt=""></a>
-                <a href="https://twitter.com/Eduarda57543552" target="_blank"><img src="assets/icons/square-twitter.svg"
-                        alt=""></a>
+                <a href="https://www.facebook.com/eduarda.candido.9465/" target="_blank"><img src="assets/icons/square-facebook.svg" alt="facebook icon"></a>
+                <a href="https://www.instagram.com/_eduardacandido/" target="_blank"><img src="assets/icons/square-instagram.svg" alt="instagram icon"></a>
+                <a href="https://www.linkedin.com/in/eduardacandido/" target="_blank"><img src="assets/icons/linkedin.svg" alt="linkedin icon"></a>
+                <a href="https://github.com/eduardacandido" target="_blank"><img src="assets/icons/square-github.svg" alt="github icon"></a>
+                <a href="https://twitter.com/Eduarda57543552" target="_blank"><img src="assets/icons/square-twitter.svg" alt="twitter icon"></a>
             </p>
         </div>
     </footer>
