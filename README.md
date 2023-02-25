@@ -1,4 +1,4 @@
-#Eduarda Candido's Portfolio
+# Eduarda Candido's Portfolio
 
 Project - User-Centric Frontend Development - Eduarda Candido's Portfolio.
 
