@@ -42,9 +42,26 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ## Features
 
--   Responsive on all device sizes
+-   list out the type of elements you want to use on your site, this will help you when choosing a framework and goes hand in hand when doing the wireframes. If you did something out of the ordinary, or think something was particularly clever, add a sentence and a screenshot or reference the file the code or css is in.
+-   top menu (desktop navigation)
+-   sidebar menu (mobile navigation)
+-   footer
+-   containers/cards
+-   buttons
+-   text input
+-   textarea inputs
+-   dropdowns
+-   modals/layers
+-   check boxes
+-   switches
+-   accordions
+-   pagination
+-   datepickers
+-   maps
+-   images
+-   tooltips
+-   icons
 
--   Interactive elements
 
 ## Technologies Used
 

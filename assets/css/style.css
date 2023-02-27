@@ -18,6 +18,8 @@
         --font3: 'Oswald', sans-serif;;
 }
 
+/*general*/
+
 * {
         margin: 0;
         padding: 0;
@@ -40,10 +42,24 @@ main {
         margin: 0 auto;
 }
 
+.row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+.col {
+        flex-basis: 100%;
+}
+
+/*logo in navigation bar*/
+
 a#logo {
         font-family: var(--font2);
         color: var(--gray);
 }
+
+/*home background and text*/
 
 #bg-header {
         width: 100%;
@@ -72,6 +88,8 @@ a#logo {
         transform: translate(-50%,-50%);
 }
 
+/*home profile picture*/
+
 #profile-picture {
         background: var(--white) url(../images/eduarda-profile-picture.jpg) center center no-repeat local;
         background-size: cover;
@@ -85,6 +103,8 @@ a#logo {
         transform: translate(-50%,-50%);
 }
 
+/*general sections boxes*/
+
 .section {
         background-color: var(--white);
         color: var(--gray);
@@ -93,6 +113,8 @@ a#logo {
         margin: 0 auto 40px auto;
         border-radius: 5px;
 }
+
+/*Titles name & profession*/
 
 .section h1 {
         letter-spacing: 0.08em;
@@ -108,19 +130,10 @@ a#logo {
         font-weight: 600;
 }
 
+/*personal details section*/
+
 #container-personal {
         padding: 20px 10px;
-}
-
-#name-personal {
-        padding: 0px 10px;
-}
-
-.list-personal {
-        list-style-type: none;
-        font-size: 0.85rem;
-        line-height: 2.5rem;
-        padding: 0;
 }
 
 #label-personal {
@@ -128,8 +141,11 @@ a#logo {
         width: 30%;
 }
 
-#details-personal {
-        width: 70%;
+.list-personal /**/{
+        list-style-type: none;
+        font-size: 0.85rem;
+        line-height: 2.5rem;
+        padding: 0;
 }
 
 .list-personal a {
@@ -140,6 +156,16 @@ a#logo {
 .list-personal a:hover {
         text-decoration: underline;
 }
+
+#name-personal {
+        padding: 0px 10px;
+}
+
+#details-personal {
+        width: 70%;
+}
+
+/*about section*/
 
 .about-section {
         text-indent: 10px;
@@ -170,7 +196,7 @@ a#logo {
         line-height: 2.5rem;
 }
 
-/*project & contact*/
+/*project & contact titles*/
 
 .titles {
         display: block;
@@ -196,6 +222,8 @@ a#logo {
         font-family: var(--font1);
         text-shadow: 2px 2px 2px var(--shadow);
 }
+
+/*project*/
 
 #project-container {
         max-width: 320px;
@@ -234,6 +262,8 @@ a#logo {
         color: var(--white);
         margin-bottom: 20px;
 }
+
+/*form*/
 
 #form {
         max-width: 320px;
@@ -333,6 +363,20 @@ footer {
         border-radius: 50%;
 }
 
+.footer-section img {
+        width: 27px;
+        height: 27px;
+        margin: 0 15px;
+        border-radius: 5px;
+        background-color: var(--blue1);
+}
+
+.footer-section img:hover {
+        border: 1px solid var(--blue1);
+}
+
+/*Download CV sticky button*/
+
 .sticky-section {
         position: -webkit-sticky;
         position: sticky;
@@ -356,28 +400,6 @@ footer {
 
 #btn-sticky:hover {
         background-color: var(--blue3);
-}
-
-.footer-section img {
-        width: 27px;
-        height: 27px;
-        margin: 0 15px;
-        border-radius: 5px;
-        background-color: var(--blue1);
-}
-
-.footer-section img:hover {
-        border: 1px solid var(--blue1);
-}
-
-.row {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-}
-
-.col {
-        flex-basis: 100%;
 }
 
 /*page-404-error*/
