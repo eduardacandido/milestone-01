@@ -108,7 +108,7 @@ a#logo {
 .section {
         background-color: var(--white);
         color: var(--gray);
-        max-width: 400px;
+        width: 95vw;
         display: block;
         margin: 0 auto 40px auto;
         border-radius: 5px;
@@ -130,20 +130,21 @@ a#logo {
         font-weight: 600;
 }
 
+#name-personal {
+        padding: 0px 10px;
+}
+
 /*personal details section*/
 
 #container-personal {
         padding: 20px 10px;
 }
 
-#label-personal {
-        text-indent: 10px;
-        width: 30%;
-}
-
-.list-personal /**/{
+ /*personal details list
+ (labels and information)*/
+.list-personal{
         list-style-type: none;
-        font-size: 0.85rem;
+        font-size: 0.75rem;
         line-height: 2.5rem;
         padding: 0;
 }
@@ -157,12 +158,14 @@ a#logo {
         text-decoration: underline;
 }
 
-#name-personal {
-        padding: 0px 10px;
+#label-personal {
+        text-indent: 10px;
+        width: 25%;
 }
 
 #details-personal {
-        width: 70%;
+        width: 65%;
+        word-wrap: break-word;
 }
 
 /*about section*/
@@ -226,12 +229,14 @@ a#logo {
 /*project*/
 
 #project-container {
-        max-width: 320px;
+        width: 90%;
+        max-width: 300px;
         margin: auto;
 }
 
 #project-container img {
-        max-width: 320px;
+        width: 100%;
+        max-width: 300px;
         border: 1px solid var(--blue1);
         box-shadow: 10px 10px 10px var(--shadow);
 }
@@ -424,9 +429,9 @@ footer {
 /*mobile devices*/
 
 @media screen and (min-width: 350px) {
-
         .list-personal {
                 text-indent: 10px;
+                font-size: 0.8rem;
         }
 
         .col {
@@ -443,6 +448,10 @@ footer {
         .section {
                 max-width: 90%;
                 min-width: 315px;
+        }
+        .list-personal {
+                text-indent: 40%;
+                font-size: 1rem;
         }
         .about-section {
                 padding: 30px 0;
@@ -463,6 +472,16 @@ footer {
         #spacer {
                 width: 1vw;
                 display: inline-block;
+        }
+
+        #project-container {
+                width: 70%;
+                max-width: none;
+        }
+        
+        #project-container img {
+                width: 100%;
+                max-width: none;
         }
 
 }
