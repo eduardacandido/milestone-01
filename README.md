@@ -85,7 +85,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![image](https://user-images.githubusercontent.com/101809642/221340262-052ce257-69af-4715-804a-307f1159f9e7.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![image](https://user-images.githubusercontent.com/101809642/221340288-d49a0255-7a78-4be2-92f1-4c416517d16b.png)
--   [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - ![image](https://user-images.githubusercontent.com/101809642/221340531-8c0d67f6-513b-4859-a79b-fd04801fd861.png)
+-   [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - ![image](https://user-images.githubusercontent.com/101809642/221728791-4c4f1cda-27fa-4bff-82eb-42cfeeae7685.png)
+
 
 ### Testing User Stories from User Experience (UX) Section
 
