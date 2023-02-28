@@ -55,6 +55,7 @@ main {
 /*logo in navigation bar*/
 
 a#logo {
+        font-size: 1.2rem;
         font-family: var(--font2);
         color: var(--gray);
 }
@@ -429,6 +430,9 @@ footer {
 /*mobile devices*/
 
 @media screen and (min-width: 350px) {
+        a#logo {
+                font-size: 1.4rem;
+        }
         .list-personal {
                 text-indent: 10px;
                 font-size: 0.8rem;
@@ -442,6 +446,9 @@ footer {
 /*tablets or medium devices*/
 
 @media screen and (min-width: 768px) {
+        a#logo {
+                font-size: 1.5rem;
+        }
         #bg-header {
                 height: 550px;
         }
