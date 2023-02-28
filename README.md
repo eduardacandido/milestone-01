@@ -39,17 +39,17 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 #### Imagery
 
--   Imagery is important. The large background image is designed to be relaxing and make the user feel confortable. It also has a professional, serene aesthetic still keeping within the palette.
+-  Imagery is important. The large background image is designed to be relaxing and make the user feel confortable. It also has a professional, serene aesthetic still keeping within the palette.
 
 ### Wireframes
 
--   Desktop Wireframe - 
+-  Desktop Wireframe  - 
 [View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/r2278)
 
--   Tablet Wireframe - 
+-  Tablet Wireframe  - 
 [View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/rA438)
 
--   Mobile Wireframe - 
+-  Mobile Wireframe  - 
 [View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/rD3B7)
 
 ## Features
@@ -60,8 +60,8 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ### Languages Used
 
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -92,61 +92,63 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![image](https://user-images.githubusercontent.com/101809642/221340262-052ce257-69af-4715-804a-307f1159f9e7.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![image](https://user-images.githubusercontent.com/101809642/221340288-d49a0255-7a78-4be2-92f1-4c416517d16b.png)
--   [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - ![image](https://user-images.githubusercontent.com/101809642/221728791-4c4f1cda-27fa-4bff-82eb-42cfeeae7685.png)
+-  [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![image](https://user-images.githubusercontent.com/101809642/221340262-052ce257-69af-4715-804a-307f1159f9e7.png)
+-  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![image](https://user-images.githubusercontent.com/101809642/221340288-d49a0255-7a78-4be2-92f1-4c416517d16b.png)
+-  [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - ![image](https://user-images.githubusercontent.com/101809642/221728791-4c4f1cda-27fa-4bff-82eb-42cfeeae7685.png)
 
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### User Goals
+-  #### User Goals
 
-    * As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
-    * As a user I want to find information about them as well as their education, skills and experience.
-    * As a user I want to find their previous projects easily.
-    * As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
-    * As a user I want to be able to find their contact details and social media links easily to get in touch.
-    * As a user I want to be able to download their CV easily without many clicks.
-    * As a user I want to be able to access this website on my mobile device or table.
+* As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
+* As a user I want to find information about them as well as their education, skills and experience.
+* As a user I want to find their previous projects easily.
+* As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
+* As a user I want to be able to find their contact details and social media links easily to get in touch.
+* As a user I want to be able to download their CV easily without many clicks.
+* As a user I want to be able to access this website on my mobile device or table.
 
-    1.  As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site.
-        * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page section of their choice. Underneath there is a Serene Image with Text to call the atention and show the purpose of the website.
-        
-    2. As a user I want to find information about them as well as their education, skills and experience.
-        * As soon as the user starts srcolling there are the developer's picture and personal details.
-        * The user can continue scrolling down to find more information about the developer's skill, education and experience or click on about button in the navigation bar.
+1.  As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site.
+  * Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page section of their choice. Underneath there is a Serene Image with Text to call the atention and show the purpose of the website.
 
-    3. As a user I want to find their previous projects easily.
-        * The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what the page section they will end up at clearly, including projects section.
-        * At the bottom of the page there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
+2. As a user I want to find information about them as well as their education, skills and experience.
+  * As soon as the user starts srcolling there are the developer's picture and personal details.
+  * The user can continue scrolling down to find more information about the developer's skill, education and experience or click on about button in the navigation bar.
 
-    4. As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
-        * There is a navigation bar fixed to the top of the page with a Contact link which sends the user from any part of the site directly to our Contact page section, where they will find a form to send project requests.
-        * They can also email projects requests using the email provided in the About page section.
-        * The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
+3. As a user I want to find their previous projects easily.
+  * The site has been designed to be fluid and never to entrap the user. At the top of the page there is a clean navigation bar, each link describes what the page section they will end up at clearly, including projects section.
+  * At the bottom of the page there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
 
-    5. As a user I want to be able to find their contact details and social media links easily to get in touch.
-        * The user can scroll to the bottom of the page on the site to locate social media links in the footer.
-        * Contact details as phone number and email address can be found with the personal details in the home page section.
-        * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-    
-    6. As a user I want to be able to download their CV easily without many clicks.
-        * The navigation bar clearly highlights the 'Download CV' Page.
-        * Alternatively, there is also a 'Download' button fixed to the bottom-left of the page, which like the link in the navigation bar, will open in a new tab to ensure they can get back to the website easily.
+4. As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
+  * There is a navigation bar fixed to the top of the page with a Contact link which sends the user from any part of the site directly to our Contact page section, where they will find a form to send project requests.
+  * They can also email projects requests using the email provided in the About page section.
+  * The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
 
-    7. As a user I want to be able to access this website on my mobile device or table.
-        * The website is completely responsive and can be accessed from any device.
+5. As a user I want to be able to find their contact details and social media links easily to get in touch.
+  * The user can scroll to the bottom of the page on the site to locate social media links in the footer.
+  * Contact details as phone number and email address can be found with the personal details in the home page section.
+  * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
+
+6. As a user I want to be able to download their CV easily without many clicks.
+  * The navigation bar clearly highlights the 'Download CV' Page.
+  * Alternatively, there is also a 'Download' button fixed to the bottom-left of the page, which like the link in the navigation bar, will open in a new tab to ensure they can get back to the website easily.
+
+7. As a user I want to be able to access this website on my mobile device or table.
+  * The website is completely responsive and can be accessed from any device.
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE.
--   A large amount of testing was done to ensure that all pages sections were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-  The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-  The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE.
+-  A large amount of testing was done to ensure that all pages sections were linking correctly.
+-  Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Fixed Bugs
 
--   
+-   [Burger Menu Responsiveness on small devices issue](https://github.com/eduardacandido/milestone-01/issues/1)
+-   [Navbar burger won't close on click](https://github.com/eduardacandido/milestone-01/issues/2)
+-   [Empty line on left of website on small mobile devices](https://github.com/eduardacandido/milestone-01/issues/3)
 
 ## Deployment
 
