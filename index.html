@@ -14,18 +14,17 @@
 
 <body>
     <!--Navbar: code taken from bootstrap-->
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html" id="logo">Eduarda Candido</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" aria-current="page" href="#about" aria-label="Go to the about me section">About</a>
-                    <a class="nav-link" href="#projects" aria-label="Go to projects section">Projects</a>
-                    <a class="nav-link" href="#contact" aria-label="Go to contact information section">Contact</a>
+                <div class="navbar-nav" id="menu-links">
+                    <a class="nav-link" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-current="page" href="#about" aria-label="Go to the about me section">About</a>
+                    <a class="nav-link" data-toggle="collapse" data-target="#navbarNavAltMarkup" href="#projects" aria-label="Go to projects section">Projects</a>
+                    <a class="nav-link" data-toggle="collapse" data-target="#navbarNavAltMarkup" href="#contact" aria-label="Go to contact information section">Contact</a>
                     <a class="nav-link" href="assets/docs/eduarda-candido-cv.pdf" aria-label="Download my CV" target="_blank">Download CV</a>
                 </div>
             </div>
@@ -49,7 +48,7 @@
         <!--about section-->
         <section> 
             <!--personal information-->
-            <section class="section"> 
+            <section class="section" id="about"> 
                 <div id="container-personal">
                     <div id="name-personal">
                         <h1>Eduarda Candido</h1>
@@ -77,15 +76,15 @@
                 </div>
             </section>
 
-            <section id="about">
+            <section id="about-section">
                 <!--skills container-->
                 <div class="about-section section" id="skill-section"> 
                     <h3>Skills</h3>
                     <hr>
                     <ul>
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>UX Design</li>
                     </ul>
                 </div>
                 <div id="spacer"></div>
@@ -94,9 +93,9 @@
                     <h3>Education</h3>
                     <hr>
                     <ul>
-                        <li>Item 1</li>
-                        <li>Item 2</li>
-                        <li>Item 3</li>
+                        <li>Curso em Video: Web Development</li>
+                        <li>CAVC: Web App Development</li>
+                        <li>Code Institute: Software and Web Dev.</li>
                     </ul>
                 </div>
             </section>
@@ -143,7 +142,7 @@
             <!--contact form-->
             <div class="section"> 
                 <h3>Create a website with me!</h3>
-                <form action="thankyou.html" method="post" id="form">
+                <form action="thankyou.html" id="form">
                     <div>
                         <label for="name-field" class="form-label">Name *</label>
                         <input id="name-field" type="text" name="full_name" autocomplete="name" required
@@ -200,9 +199,36 @@
         </div>
     </footer>
 
+    <script>
+        // This script was taken directly from Dave Atchley's post on  Medium to solve mobile navigation toggle https://medium.com/dailyjs/mimicking-bootstraps-collapse-with-vanilla-javascript-b3bb389040e7
+        // Handler that uses various data-* attributes to trigger
+        // specific actions, mimicing bootstraps attributes
+        const triggers = Array.from(document.querySelectorAll('[data-toggle="collapse"]'));
+        
+        window.addEventListener('click', (ev) => {
+            const elm = ev.target;
+            if (triggers.includes(elm)) {
+            const selector = elm.getAttribute('data-target');
+            collapse(selector, 'toggle');
+            }
+        }, false);
+        
+        
+        const fnmap = {
+            'toggle': 'toggle',
+            'show': 'add',
+            'hide': 'remove'
+        };
+        const collapse = (selector, cmd) => {
+            const targets = Array.from(document.querySelectorAll(selector));
+            targets.forEach(target => {
+            target.classList[fnmap[cmd]]('show');
+            });
+        }
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
