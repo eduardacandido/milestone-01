@@ -2,7 +2,7 @@
 
 Project - User-Centric Frontend Development - Eduarda Candido's Portfolio.
 
-[View the live project here.](https://eduardacandido.github.io/milestone-1/)
+[View the live project here.](https://eduardacandido.github.io/milestone-01/)
 
 This is the main marketing website for Eduarda Candido's work. As a beginner web developer she desired having an easy way to show her work for new contractors.
 
@@ -10,9 +10,11 @@ The site will be targeted toward business owners, or anyone else looking for a w
 
 It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential recruiters and clients.
 
+![image](https://user-images.githubusercontent.com/101809642/221899355-2b514f4c-f773-4b26-ad7b-2f004f0933d0.png)
+
 ## User Experience (UX)
 
--   ### User stories
+### User stories
 
     * As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
     * As a user I want to find information about their education, skills and experience.
@@ -22,30 +24,37 @@ It is designed to be responsibe and accessible on a range of devices, making it 
     * As a user I want to be able to download their CV easily without many clicks.
     * As a user I want to be able to access this website on my mobile device or table.
 
--   ### Design
-    -   #### Colour Scheme
-        -   The five main colours used are:
+### Design
+
+#### Colour Scheme
+
+-   The five main colours used are:
 ![image](https://user-images.githubusercontent.com/101809642/221332952-b8ecfa5c-ad41-4791-8199-59d461c8310c.png)
-        -   The palette has been chosen for the color blue usually calling to mind a feeling of peace, order and security. Also for being seen as a sign of reliability, professionalism and stability, often bringing trust from users to content. 
-    -   #### Typography
-        -   The Georgia font is the main font used throughout the whole website with 'Times New Roman' and then Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Georgia is a serif font used frequently in resumes, so it is both easilly readable and appropriate.
-    -   #### Imagery
-        -   Imagery is important. The large background image is designed to be relaxing and make the user feel confortable. It also has a professional, serene aesthetic still keeping within the palette.
 
-*   ### Wireframes
+-   The palette has been chosen for the color blue usually calling to mind a feeling of peace, order and security. Also for being seen as a sign of reliability, professionalism and stability, often bringing trust from users to content. 
+        
+#### Typography
 
-    -   Desktop Wireframe - 
-    [View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/r2278)
+-   The Georgia font is the main font used throughout the whole website with 'Times New Roman' and then Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Georgia is a serif font used frequently in resumes, so it is both easilly readable and appropriate.
 
-    -   Tablet Wireframe - 
-    [View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/rA438)
+#### Imagery
 
-    -   Mobile Wireframe - 
-    [View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/rD3B7)
+-   Imagery is important. The large background image is designed to be relaxing and make the user feel confortable. It also has a professional, serene aesthetic still keeping within the palette.
+
+### Wireframes
+
+-   Desktop Wireframe - 
+[View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/r2278)
+
+-   Tablet Wireframe - 
+[View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/rA438)
+
+-   Mobile Wireframe - 
+[View](https://external.ink?to=https://balsamiq.cloud/s7dsim5/p20j7pm/rD3B7)
 
 ## Features
 
-### 
+### Navigation Bar
 
 ## Technologies Used
 
@@ -135,7 +144,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages sections were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Fixed Bugs
 
 -   
 
