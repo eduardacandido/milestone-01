@@ -2,7 +2,7 @@
 
 Project - User-Centric Frontend Development - Eduarda Candido's Portfolio.
 
-[View the live project here.](https://eduardacandido.github.io/Milestone-1/)
+[View the live project here.](https://eduardacandido.github.io/milestone-1/)
 
 This is the main marketing website for Eduarda Candido's work. As a beginner web developer she desired having an easy way to show her work for new contractors.
 
