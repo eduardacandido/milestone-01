@@ -16,13 +16,13 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ### User stories
 
-    * As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
-    * As a user I want to find information about their education, skills and experience.
-    * As a user I want to find their previous projects easily.
-    * As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
-    * As a user I want to be able to find their contact details and social media links easily to get in touch.
-    * As a user I want to be able to download their CV easily without many clicks.
-    * As a user I want to be able to access this website on my mobile device or table.
+* As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
+* As a user I want to find information about their education, skills and experience.
+* As a user I want to find their previous projects easily.
+* As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
+* As a user I want to be able to find their contact details and social media links easily to get in touch.
+* As a user I want to be able to download their CV easily without many clicks.
+* As a user I want to be able to access this website on my mobile device or table.
 
 ### Design
 
