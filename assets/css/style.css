@@ -15,7 +15,8 @@
         /*typography*/
         --font1: Georgia, 'Times New Roman', Times, serif;
         --font2: 'Comfortaa', 'Courier New', Courier, monospace;
-        --font3: 'Oswald', sans-serif;;
+        --font3: 'Oswald', sans-serif;
+        ;
 }
 
 /*general*/
@@ -94,7 +95,7 @@ main {
         position: absolute;
         top: 35%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
 }
 
 /*home profile picture*/
@@ -109,7 +110,7 @@ main {
         position: absolute;
         top: 100%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
 }
 
 /*general sections boxes*/
@@ -149,9 +150,9 @@ main {
         padding: 20px 10px;
 }
 
- /*personal details list
+/*personal details list
  (labels and information)*/
-.list-personal{
+.list-personal {
         list-style-type: none;
         font-size: 0.75rem;
         line-height: 2.5rem;
@@ -179,7 +180,8 @@ main {
 
 /*about section*/
 
-#about-section h3, #work-section h3 {
+#about-section h3,
+#work-section h3 {
         text-align: start;
         padding: 0 0 0 10px;
         font-size: 1.1rem;
@@ -225,11 +227,11 @@ main {
         font-weight: 600;
 }
 
-.section > h3 {
+.section>h3 {
         text-align: center;
         padding: 30px 10px 20px 10px;
         font-size: 1.3rem;
-        letter-spacing: 0.15em;        
+        letter-spacing: 0.15em;
         color: var(--black);
         font-family: var(--font1);
         text-shadow: 2px 2px 2px var(--shadow);
@@ -264,6 +266,7 @@ main {
         text-decoration: none;
         color: var(--gray);
 }
+
 .project-link a:hover {
         text-decoration: underline;
 }
@@ -284,7 +287,7 @@ main {
         max-width: 320px;
         margin: auto;
         padding-bottom: 30px;
-        
+
 }
 
 .form-label {
@@ -349,7 +352,7 @@ footer {
         position: relative;
         top: 40%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
 
 }
 
@@ -371,7 +374,7 @@ footer {
         height: 100px;
 }
 
-.footer-section p > img {
+.footer-section p>img {
         width: 20px;
         height: 20px;
         padding: 1px;
@@ -467,7 +470,7 @@ footer {
         .col {
                 flex: 1;
         }
-        
+
         #footer-copyright p {
                 line-height: 0.9rem;
                 font-size: 0.8rem;
@@ -516,7 +519,7 @@ footer {
                 font-size: 1.7rem;
         }
 
-         /*personal details list (labels and information)*/
+        /*personal details list (labels and information)*/
         .list-personal {
                 text-indent: 40%;
                 font-size: 1rem;
@@ -562,7 +565,7 @@ footer {
                 width: 70%;
                 max-width: none;
         }
-        
+
         #project-container img {
                 width: 100%;
                 max-width: none;
@@ -583,6 +586,7 @@ footer {
 /*laptop & desktop*/
 
 @media screen and (min-width: 1024px) {
+
         /*general*/
         .col {
                 flex: 1;
@@ -593,7 +597,8 @@ footer {
         }
 
         /*general section containers and about section*/
-        .section, #about-section {
+        .section,
+        #about-section {
                 width: 100%;
         }
 }
@@ -617,7 +622,7 @@ footer {
         }
 
         #menu-links a {
-                font-size: 2rem; 
+                font-size: 2rem;
         }
 
         /*Home Page*/
@@ -655,7 +660,7 @@ footer {
                 font-size: 2.7rem;
         }
 
-         /*personal details list (labels and information)*/
+        /*personal details list (labels and information)*/
         .list-personal {
                 font-size: 1.5rem;
         }
@@ -670,7 +675,8 @@ footer {
                 width: 50px;
         }
 
-        #about-section h3, #work-section h3 {
+        #about-section h3,
+        #work-section h3 {
                 font-size: 2rem;
         }
 

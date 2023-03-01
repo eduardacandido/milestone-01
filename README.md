@@ -273,27 +273,27 @@ The project was deployed to GitHub Pages using the following steps...
 ## Credits
 
 -   The background image used on the Home and Contact page were taken from 
-        -   [Unsplash](https://unsplash.com/), photo by [Rasmus Gundorff Sæderup](https://unsplash.com/@rasmusgs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-        -   All other media used on the website were created by the developer.
+    -   [Unsplash](https://unsplash.com/), photo by [Rasmus Gundorff Sæderup](https://unsplash.com/@rasmusgs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+    -   All other media used on the website were created by the developer.
 
 -   Favicon and all icons used on the site taken from 
-        -   [Fontawesome](https://fontawesome.com/).
+    -   [Fontawesome](https://fontawesome.com/).
 
 -   Readme template/inspiration taken from 
-        -   [Code Institute Solutions - readme-template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
-        -   [Code Institute Solutions - SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
-        -   [Nemisu - Stephen Seagrave - Milestone1](https://github.com/nemixu/Milestone1/blob/master/README.md)
-        -   Mentor's Guide Readme
+    -   [Code Institute Solutions - readme-template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+    -   [Code Institute Solutions - SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+    -   [Nemisu - Stephen Seagrave - Milestone1](https://github.com/nemixu/Milestone1/blob/master/README.md)
+    -   Mentor's Guide Readme
 
 -   Original wireframes were created with [Balsamiq](https://balsamiq.com/wireframes/)
 
 ### Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): 
-        -   Bootstrap Library used throughout the project mainly for navigation bar and to make site responsive.
+    -   Bootstrap Library used throughout the project mainly for navigation bar and to make site responsive.
 
 -   [Dave Atchley's post on Medium](https://medium.com/dailyjs/mimicking-bootstraps-collapse-with-vanilla-javascript-b3bb389040e7):
-        -   This script was taken directly from the blog to solve mobile navigation toggle.
+    -   This script was taken directly from the blog to solve mobile navigation toggle.
 
 ### Content
 
