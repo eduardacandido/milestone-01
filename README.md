@@ -270,6 +270,8 @@ All content was written by the developer.
 
 My Mentor [Malia Havlicek](https://github.com/maliahavlicek) for continuous helpful feedback and guiding.
 
+
+
 This project is for educational use only and was created for the Code Institute Module of User Centric front end development
 
 Created by Eduarda Candido
