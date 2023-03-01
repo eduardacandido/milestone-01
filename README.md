@@ -90,7 +90,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -  Fields are big enough for friendly interaction on mobile devices
 -  Form takes user to thankyou page, so it seems like they remain on site vs form dump
 -  Button has hover state to better key it’s clickable to users
-![image](https://user-images.githubusercontent.com/101809642/222017212-1907fd65-a57f-4b31-b632-eb109d0a2e2a.png)
+-  ![image](https://user-images.githubusercontent.com/101809642/222017212-1907fd65-a57f-4b31-b632-eb109d0a2e2a.png)
 
 ### Thankyou Page
 -  Gives user sense of staying within site after submitting form
@@ -208,7 +208,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -  The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--  The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE.
+-  The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE and large TV screen.
 -  A large amount of testing was done to ensure that all pages sections were linking correctly.
 -  Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -227,12 +227,25 @@ The original plan of this site was to have a multi page site, homepage, about, p
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/eduardacandido/Milestone-1/)
+![image](https://user-images.githubusercontent.com/101809642/222024716-ac126969-9dbb-4f92-b4f3-58498eb27081.png)
+
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+![image](https://user-images.githubusercontent.com/101809642/222024889-acf3a59e-f947-4318-bca1-846c030b88f6.png)
     - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://eduardacandido.github.io/Milestone-1/) in the "GitHub Pages" section.
+    
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section button on the left.
+![image](https://user-images.githubusercontent.com/101809642/222024983-8fc0644c-8bd1-4c08-a176-2becddcbd62c.png)
+
+4. Under "Source", select "Deploy from a branch".
+- ![image](https://user-images.githubusercontent.com/101809642/222025252-a6aa22b8-cb15-4618-bff2-eeabf7274193.png)
+
+5. Under "Branch", click the dropdown called "None" and select "main"
+- ![image](https://user-images.githubusercontent.com/101809642/222063012-5c09865a-8ac9-477c-be06-7c3e4a7a5291.png)
+
+6. The page will automatically refresh.
+
+7. On the top of the page you can locate the now published site [link](https://eduardacandido.github.io/milestone-01/) in the "GitHub Pages" section.
+![image](https://user-images.githubusercontent.com/101809642/222063181-a21b3cb3-edde-465d-84ef-eab630085a17.png)
 
 ## Credits
 
