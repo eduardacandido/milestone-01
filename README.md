@@ -70,9 +70,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ### About section
 -  Has 4 subsections commonly seen on resumes in card like format with variation and width to maximize use of space
--  Candidate's personal details section providing contact information which takes full width no matter the device.
--  Personal contact details as email and phone links are set to open on email app and phone respectively.
--  Address link will open on maps. 
+-  Candidate's personal details section providing contact information which takes full width no matter the device
+-  Personal contact details are link with underlining hover state to ensure users are aware they are links
+-  Address link will open on maps, while email link is set to open on email app with 'to' and 'subject' section autofilled, and number link to open on phone
 -  Skills section takes 50% with on desktop, 100% on smaller devices
 -  Education section takes 50% on desktop, 100% on smaller devices
 -  Work History - full width subsection as content in this tends to be wordier
@@ -186,23 +186,23 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   As a user I want to find the best way to contact them to send a new project request and/or get a new project budget.
     -   There is a navigation bar fixed to the top of the page with a Contact link which sends the user from any part of the site directly to our Contact page section, where they will find a form to send project requests.
     -   They can also email projects requests using the email provided in the About page section.
-    -   The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
+    -   The email link is set up to automatically open up your email app and autofill their email address in the "To" section.
 
 -   As a user I want to be able to find their contact details and social media links easily to get in touch.
     -   The user can scroll to the bottom of the page on the site to locate social media links in the footer.
-    -   Contact details as phone number and email address can be found with the personal details in the home page section.
+    -   Contact details as phone number and email address can be found with the personal details in the about section.
     -   Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
 
 -   As a user I want to be able to download their CV easily without many clicks.
     -   The navigation bar clearly highlights the 'Download CV' Page.
-    -   Alternatively, there is also a 'Download' button fixed to the bottom-left of the page, which like the link in the navigation bar, will open in a new tab to ensure they can get back to the website easily.
+    -   Alternatively, there is also a 'Download' button fixed to the bottom-left of the page, which like the link in the navigation bar, will open in a new tab as a pdf to ensure they can get back to the website easily.
 
 -   As a user I want to be able to access this website on my mobile device or table.
     -   The website is completely responsive and can be accessed from any device.
 
 ### Responsiveness Testing
 
--   The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE, large TV screen and simulators.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE, large TV screen, other devices and simulators.
 
 ![image](https://user-images.githubusercontent.com/101809642/222088925-08825127-376d-4e16-b77d-beeadab1f4bc.png)
 
@@ -248,7 +248,7 @@ The original plan of this site was to have a multi page site, homepage, about, p
 
 ### GitHub Pages
 
-The project was deployed to GitHub Pages using the following steps...
+The project was deployed to GitHub Pages using the following steps:
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/eduardacandido/Milestone-1/)
 ![image](https://user-images.githubusercontent.com/101809642/222024716-ac126969-9dbb-4f92-b4f3-58498eb27081.png)
