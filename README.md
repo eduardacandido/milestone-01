@@ -28,8 +28,8 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 #### Colour Scheme
 
--   The five main colours used are:
-![image](https://user-images.githubusercontent.com/101809642/221332952-b8ecfa5c-ad41-4791-8199-59d461c8310c.png)
+-   Chosen from [Coolors](https://coolors.co/000000-162b3b-376996-bfd7ea-ffffff) he five main colours used are:
+![image](https://user-images.githubusercontent.com/101809642/222099741-fa14f7a6-1461-4e93-bb57-1af054ccea9e.png)
 
 -   The palette has been chosen for the color blue usually calling to mind a feeling of peace, order and security. Also for being seen as a sign of reliability, professionalism and stability, often bringing trust from users to content. 
         
@@ -151,6 +151,8 @@ It is designed to be responsibe and accessible on a range of devices, making it 
     - Google Chrome DevTools was used for debugging.
 1. [Am I Responsive?](https://ui.dev/amiresponsive)
     - Am I Responsive? was used to test and validate whether the website is responsive or not.
+1. [Coolors](https://coolors.co/)
+    - Coolors was used for choosing the website's colours palette.
 
 ## Testing
 
@@ -237,6 +239,7 @@ The original plan of this site was to have a multi page site, homepage, about, p
 -   [Navbar burger won't close on click](https://github.com/eduardacandido/milestone-01/issues/2)
 -   [Empty line on left of website on small mobile devices](https://github.com/eduardacandido/milestone-01/issues/3)
 -   [Not responsive cards on about section](https://github.com/eduardacandido/milestone-01/issues/4)
+-   [Navbar contrast issue](https://github.com/eduardacandido/milestone-01/issues/5)
 
 ## Deployment
 
@@ -259,7 +262,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. Under "Branch", click the dropdown called "None" and select "main"
 - ![image](https://user-images.githubusercontent.com/101809642/222063012-5c09865a-8ac9-477c-be06-7c3e4a7a5291.png)
 
-6. The page will automatically refresh.
+6. The page will automatically refresh. It might take few minutes to be updated.
 
 7. On the top of the page you can locate the now published site [link](https://eduardacandido.github.io/milestone-01/) in the "GitHub Pages" section.
 ![image](https://user-images.githubusercontent.com/101809642/222063181-a21b3cb3-edde-465d-84ef-eab630085a17.png)
