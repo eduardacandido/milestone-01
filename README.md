@@ -93,18 +93,6 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -  Button has hover state to better key it’s clickable to users
 -  ![image](https://user-images.githubusercontent.com/101809642/222017212-1907fd65-a57f-4b31-b632-eb109d0a2e2a.png)
 
-### Thankyou Page
--  Gives user sense of staying within site after submitting form
--  Includes header and footer so it looks like an intentional part of the site
--  Provides links to all sections of home page so the user can come back to the website easily
-![image](https://user-images.githubusercontent.com/101809642/222017591-11444eaf-deaf-42a6-be6a-624b30133002.png)
-
-### 404 Page
--  Provides site inclusive theme to users who accidentally mess up a URL within the domain
--  Has link back to home page and directly to all other section from home page
--  Includes header and footer so it looks like an intentional part of the site
-![image](https://user-images.githubusercontent.com/101809642/222020028-25af2c28-9b87-4883-843f-ba24841ffeff.png)
-
 ### Footer
 -  Links for the section in the page: home, project and contact that have an underlining hover state
 -  Social media Links for candidate’s facebook, twitter, google and instagram so customers have a better idea of candidate’s character and personality
@@ -116,6 +104,18 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -  When clicked CV is opened in new tab as PDF
 -  Has hover state on desktop so users have better clues that it is clickable
 -  ![image](https://user-images.githubusercontent.com/101809642/222020886-b37b708c-3c6d-4924-b8e8-845415403d5d.png)
+
+### Thankyou Page
+-  Gives user sense of staying within site after submitting form
+-  Includes header and footer so it looks like an intentional part of the site
+-  Provides links to all sections of home page so the user can come back to the website easily
+![image](https://user-images.githubusercontent.com/101809642/222017591-11444eaf-deaf-42a6-be6a-624b30133002.png)
+
+### 404 Page
+-  Provides site inclusive theme to users who accidentally mess up a URL within the domain
+-  Has link back to home page and directly to all other section from home page
+-  Includes header and footer so it looks like an intentional part of the site
+![image](https://user-images.githubusercontent.com/101809642/222020028-25af2c28-9b87-4883-843f-ba24841ffeff.png)
 
 ## Technologies Used
 
