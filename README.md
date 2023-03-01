@@ -55,6 +55,66 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 ## Features
 
 ### Navigation Bar
+-  The full responsive navigation bar includes logo and links to the Home Page, 'About', Projects', ‘Contact' and ‘Download CV’ sections by smoothly scrolling user to area of interest
+-  Goes to toggle navigation on small devices
+-  Sticks to the top so links are present no matter where the user is on the page
+-  ![image](https://user-images.githubusercontent.com/101809642/222015332-7404f773-55d1-4f5f-af4e-f64eff8a9618.png)
+
+### Home Section
+-  The Home Section will be the section user sees when the come to the site.
+-  Background landscape image of misty peaceful mountains tie in with color scheme
+-  Has professional image of me, as the site is my Portfolio and CV
+-  Height and width adjusts responsively
+-  Cool effect of scrolling content over the mountains to better show off CSS skills
+-  ![image](https://user-images.githubusercontent.com/101809642/222015740-2f98d506-c927-48be-b8ff-a16b0ba3e073.png)
+
+### About section
+-  Has 4 subsections commonly seen on resumes in card like format with variation and width to maximize use of space
+-  Candidate's personal details section providing contact information which takes full width no matter the device
+-  Skills section takes 50% with on desktop, 100% on smaller devices
+-  Education section takes 50% on desktop, 100% on smaller devices
+-  Work History - full width subsection as content in this tends to be wordier
+-  ![image](https://user-images.githubusercontent.com/101809642/222016252-ad267e82-9efa-4fef-b58a-eec7221e545e.png)
+
+### Projects Section
+-  Presents a responsive image of 'Coffee Shop Project'
+-  Entire image is clickable and opens in new tab to show off project
+-  Image has opacity hover state to better let users know its clickable
+-  Presents link that directs the user to my GitHub Repository for full portfolio that have an underlining hover state
+-  ![image](https://user-images.githubusercontent.com/101809642/222016399-2158b73c-06e5-456c-b5bd-38c5db0187a9.png)
+
+### Contact section
+-  A form to contact the developer for a project including a field for name, email, message and a send request button.
+-  Validation of user input on fields is done to ensure email is entered
+-  All fields are required to be populated before submitting the form
+-  Fields are big enough for friendly interaction on mobile devices
+-  Form takes user to thankyou page, so it seems like they remain on site vs form dump
+-  Button has hover state to better key it’s clickable to users
+-  ![image](https://user-images.githubusercontent.com/101809642/222017212-1907fd65-a57f-4b31-b632-eb109d0a2e2a.png)
+
+### Thankyou Page
+-  Gives user sense of staying within site after submitting form
+-  Includes header and footer so it looks like an intentional part of the site
+-  Provides links to all sections of home page so the user can come back to the website easily
+-  ![image](https://user-images.githubusercontent.com/101809642/222017591-11444eaf-deaf-42a6-be6a-624b30133002.png)
+
+### 404 Page
+-  Provides site inclusive theme to users who accidentally mess up a URL within the domain
+-  Has link back to home page and directly to all other section from home page
+-  Includes header and footer so it looks like an intentional part of the site
+-  ![image](https://user-images.githubusercontent.com/101809642/222020028-25af2c28-9b87-4883-843f-ba24841ffeff.png)
+
+### Footer
+-  Links for the section in the page: home, project and contact that have an underlining hover state
+-  Social media Links for candidate’s facebook, twitter, google and instagram so customers have a better idea of candidate’s character and personality
+-  Links open in separate tabs so user can go back to our site easily without browser back button
+-  ![image](https://user-images.githubusercontent.com/101809642/222020095-17279720-4a0c-4c81-a59e-03fadd6655c1.png)
+
+### Floating CV button
+-  Button floats at bottom of the screen always
+-  When clicked CV is opened in new tab as PDF
+-  Has hover state on desktop so users have better clues that it is clickable
+-  ![image](https://user-images.githubusercontent.com/101809642/222020886-b37b708c-3c6d-4924-b8e8-845415403d5d.png)
 
 ## Technologies Used
 
@@ -68,7 +128,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - jQuery came with Bootstrap to make the navbar responsive but was also used to solve mobile navigation toggle in JavaScript.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Comfortaa' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
