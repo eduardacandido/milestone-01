@@ -70,7 +70,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ### About section
 -  Has 4 subsections commonly seen on resumes in card like format with variation and width to maximize use of space
--  Candidate's personal details section providing contact information which takes full width no matter the device
+-  Candidate's personal details section providing contact information which takes full width no matter the device.
+-  Personal contact details as email and phone links are set to open on email app and phone respectively.
+-  Address link will open on maps. 
 -  Skills section takes 50% with on desktop, 100% on smaller devices
 -  Education section takes 50% on desktop, 100% on smaller devices
 -  Work History - full width subsection as content in this tends to be wordier
