@@ -92,9 +92,14 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--  [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![image](https://user-images.githubusercontent.com/101809642/221340262-052ce257-69af-4715-804a-307f1159f9e7.png)
--  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - ![image](https://user-images.githubusercontent.com/101809642/221340288-d49a0255-7a78-4be2-92f1-4c416517d16b.png)
--  [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - ![image](https://user-images.githubusercontent.com/101809642/221728791-4c4f1cda-27fa-4bff-82eb-42cfeeae7685.png)
+-  [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  - 
+-  ![image](https://user-images.githubusercontent.com/101809642/221340262-052ce257-69af-4715-804a-307f1159f9e7.png)
+
+-  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+- ![image](https://user-images.githubusercontent.com/101809642/221340288-d49a0255-7a78-4be2-92f1-4c416517d16b.png)
+
+-  [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) 
+- ![image](https://user-images.githubusercontent.com/101809642/221728791-4c4f1cda-27fa-4bff-82eb-42cfeeae7685.png)
 
 
 ### Testing User Stories from User Experience (UX) Section
@@ -146,9 +151,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Fixed Bugs
 
--   [Burger Menu Responsiveness on small devices issue](https://github.com/eduardacandido/milestone-01/issues/1)
--   [Navbar burger won't close on click](https://github.com/eduardacandido/milestone-01/issues/2)
--   [Empty line on left of website on small mobile devices](https://github.com/eduardacandido/milestone-01/issues/3)
+-  [Burger Menu Responsiveness on small devices issue](https://github.com/eduardacandido/milestone-01/issues/1)
+-  [Navbar burger won't close on click](https://github.com/eduardacandido/milestone-01/issues/2)
+-  [Empty line on left of website on small mobile devices](https://github.com/eduardacandido/milestone-01/issues/3)
 
 ## Deployment
 
@@ -200,26 +205,35 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
--   The background image used on the Home and Contact page were taken from [Unplash](https://unsplash.com/), photo by [Rasmus Gundorff Sæderup](https://unsplash.com/@rasmusgs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+-  The background image used on the Home and Contact page were taken from 
+        -  [Unsplash](https://unsplash.com/), photo by [Rasmus Gundorff Sæderup](https://unsplash.com/@rasmusgs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+        -  All other media used on the website were created by the developer.
 
--   All other media used on the website were created by the developer.
+-  Favicon and all icons used on the site taken from 
+        -  [Fontawesome](https://fontawesome.com/).
 
--   Favicon used on the site taken from [Fontawesome](https://fontawesome.com/).
+-  Readme template/inspiration taken from 
+        -  [Code Institute Solutions - readme-template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+        -  [Code Institute Solutions - SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+        -  [Nemisu - Stephen Seagrave - Milestone1](https://github.com/nemixu/Milestone1/blob/master/README.md)
+        -  Mentor's Guide Readme
 
--   Readme template taken from [Code Institute Solutions page on Git Hub](https://github.com/Code-Institute-Solutions/readme-template)
-
--   Original wireframes were created with [Balsamiq](https://balsamiq.com/wireframes/)
+-  Original wireframes were created with [Balsamiq](https://balsamiq.com/wireframes/)
 
 ### Code
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly for navigation bar and to make site responsive.
+-  [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): 
+        -  Bootstrap Library used throughout the project mainly for navigation bar and to make site responsive.
+
+-  [Dave Atchley's post on Medium](https://medium.com/dailyjs/mimicking-bootstraps-collapse-with-vanilla-javascript-b3bb389040e7):
+        -  This script was taken directly from the blog to solve mobile navigation toggle.
 
 ### Content
 
--   All content was written by the developer.
+-  All content was written by the developer.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-  My Mentor for continuous helpful feedback and guiding.
 
--   Tutor support at Code Institute for their support.
+-  Tutor support at Code Institute for their support.
