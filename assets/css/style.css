@@ -390,6 +390,22 @@ footer {
         border: 1px solid var(--blue1);
 }
 
+#footer-copyright p {
+        line-height: 0.8rem;
+        font-size: 0.7rem;
+        padding: 5px 0;
+        margin: 0;
+}
+
+#footer-copyright a {
+        text-decoration: none;
+        color: var(--blue1);
+}
+
+#footer-copyright a:hover {
+        text-decoration: underline;
+}
+
 /*Download CV sticky button*/
 
 .sticky-section {
@@ -450,6 +466,11 @@ footer {
 
         .col {
                 flex: 1;
+        }
+        
+        #footer-copyright p {
+                line-height: 0.9rem;
+                font-size: 0.8rem;
         }
 }
 
@@ -535,6 +556,15 @@ footer {
         #project-container img {
                 width: 100%;
                 max-width: none;
+        }
+
+        #footer-copyright {
+                padding: 20px 0;
+        }
+
+        #footer-copyright p {
+                line-height: 1rem;
+                font-size: 0.9rem;
         }
 
 }
