@@ -58,7 +58,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -  The full responsive navigation bar includes logo and links to the Home Page, 'About', Projects', ‘Contact' and ‘Download CV’ sections by smoothly scrolling user to area of interest
 -  Goes to toggle navigation on small devices
 -  Sticks to the top so links are present no matter where the user is on the page
--  ![image](https://user-images.githubusercontent.com/101809642/222015332-7404f773-55d1-4f5f-af4e-f64eff8a9618.png)
+![image](https://user-images.githubusercontent.com/101809642/222015332-7404f773-55d1-4f5f-af4e-f64eff8a9618.png)
 
 ### Home Section
 -  The Home Section will be the section user sees when the come to the site.
@@ -66,7 +66,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -  Has professional image of me, as the site is my Portfolio and CV
 -  Height and width adjusts responsively
 -  Cool effect of scrolling content over the mountains to better show off CSS skills
--  ![image](https://user-images.githubusercontent.com/101809642/222015740-2f98d506-c927-48be-b8ff-a16b0ba3e073.png)
+![image](https://user-images.githubusercontent.com/101809642/222015740-2f98d506-c927-48be-b8ff-a16b0ba3e073.png)
 
 ### About section
 -  Has 4 subsections commonly seen on resumes in card like format with variation and width to maximize use of space
@@ -74,14 +74,14 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -  Skills section takes 50% with on desktop, 100% on smaller devices
 -  Education section takes 50% on desktop, 100% on smaller devices
 -  Work History - full width subsection as content in this tends to be wordier
--  ![image](https://user-images.githubusercontent.com/101809642/222016252-ad267e82-9efa-4fef-b58a-eec7221e545e.png)
+![image](https://user-images.githubusercontent.com/101809642/222016252-ad267e82-9efa-4fef-b58a-eec7221e545e.png)
 
 ### Projects Section
 -  Presents a responsive image of 'Coffee Shop Project'
 -  Entire image is clickable and opens in new tab to show off project
 -  Image has opacity hover state to better let users know its clickable
 -  Presents link that directs the user to my GitHub Repository for full portfolio that have an underlining hover state
--  ![image](https://user-images.githubusercontent.com/101809642/222016399-2158b73c-06e5-456c-b5bd-38c5db0187a9.png)
+![image](https://user-images.githubusercontent.com/101809642/222016399-2158b73c-06e5-456c-b5bd-38c5db0187a9.png)
 
 ### Contact section
 -  A form to contact the developer for a project including a field for name, email, message and a send request button.
@@ -90,25 +90,25 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -  Fields are big enough for friendly interaction on mobile devices
 -  Form takes user to thankyou page, so it seems like they remain on site vs form dump
 -  Button has hover state to better key it’s clickable to users
--  ![image](https://user-images.githubusercontent.com/101809642/222017212-1907fd65-a57f-4b31-b632-eb109d0a2e2a.png)
+![image](https://user-images.githubusercontent.com/101809642/222017212-1907fd65-a57f-4b31-b632-eb109d0a2e2a.png)
 
 ### Thankyou Page
 -  Gives user sense of staying within site after submitting form
 -  Includes header and footer so it looks like an intentional part of the site
 -  Provides links to all sections of home page so the user can come back to the website easily
--  ![image](https://user-images.githubusercontent.com/101809642/222017591-11444eaf-deaf-42a6-be6a-624b30133002.png)
+![image](https://user-images.githubusercontent.com/101809642/222017591-11444eaf-deaf-42a6-be6a-624b30133002.png)
 
 ### 404 Page
 -  Provides site inclusive theme to users who accidentally mess up a URL within the domain
 -  Has link back to home page and directly to all other section from home page
 -  Includes header and footer so it looks like an intentional part of the site
--  ![image](https://user-images.githubusercontent.com/101809642/222020028-25af2c28-9b87-4883-843f-ba24841ffeff.png)
+![image](https://user-images.githubusercontent.com/101809642/222020028-25af2c28-9b87-4883-843f-ba24841ffeff.png)
 
 ### Footer
 -  Links for the section in the page: home, project and contact that have an underlining hover state
 -  Social media Links for candidate’s facebook, twitter, google and instagram so customers have a better idea of candidate’s character and personality
 -  Links open in separate tabs so user can go back to our site easily without browser back button
--  ![image](https://user-images.githubusercontent.com/101809642/222020095-17279720-4a0c-4c81-a59e-03fadd6655c1.png)
+![image](https://user-images.githubusercontent.com/101809642/222020095-17279720-4a0c-4c81-a59e-03fadd6655c1.png)
 
 ### Floating CV button
 -  Button floats at bottom of the screen always
@@ -122,6 +122,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 -  [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-  [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -144,9 +145,11 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 1. [Gimp:](https://www.gimp.org/)
     - Gimp was used to resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 1. [Google Chrome DevTools:](https://developer.chrome.com/docs/devtools/)
     - Google Chrome DevTools was used for debugging.
+1. [Am I Responsive?](https://ui.dev/amiresponsive)
+    - Am I Responsive? was used to test and validate whether the website is responsive or not.
 
 ## Testing
 
@@ -156,15 +159,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -  ![image](https://user-images.githubusercontent.com/101809642/221340262-052ce257-69af-4715-804a-307f1159f9e7.png)
 
 -  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
-- ![image](https://user-images.githubusercontent.com/101809642/221340288-d49a0255-7a78-4be2-92f1-4c416517d16b.png)
+-  ![image](https://user-images.githubusercontent.com/101809642/221340288-d49a0255-7a78-4be2-92f1-4c416517d16b.png)
 
 -  [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) 
-- ![image](https://user-images.githubusercontent.com/101809642/221728791-4c4f1cda-27fa-4bff-82eb-42cfeeae7685.png)
+-  ![image](https://user-images.githubusercontent.com/101809642/221728791-4c4f1cda-27fa-4bff-82eb-42cfeeae7685.png)
 
 
 ### Testing User Stories from User Experience (UX) Section
 
--  #### User Goals
+#### User Goals
 
 * As a user I want to easily understand the main purpose of the site and be able to easily navigate throughout the site. 
 * As a user I want to find information about them as well as their education, skills and experience.
@@ -211,6 +214,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Fixed Bugs
 
+The original plan of this site was to have a multi page site, homepage, about, projects, contact. During the development and testing of the site it was found to be distracting for the user to be navigating to a page with small sections. The overall plan of a multi plan website was adjusted to make a single page application that would hold all of the necessary content and easy to access information on the one page. Although the site was originally planned to be multi page, the overall project kept the same concepts and layout just placed on one page.
+
 -  [Burger Menu Responsiveness on small devices issue](https://github.com/eduardacandido/milestone-01/issues/1)
 -  [Navbar burger won't close on click](https://github.com/eduardacandido/milestone-01/issues/2)
 -  [Empty line on left of website on small mobile devices](https://github.com/eduardacandido/milestone-01/issues/3)
@@ -228,40 +233,6 @@ The project was deployed to GitHub Pages using the following steps...
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://eduardacandido.github.io/Milestone-1/) in the "GitHub Pages" section.
-
-### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/eduardacandido/Milestone-1/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
-
-### Making a Local Clone
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/eduardacandido/Milestone-1/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/eduardacandido/Milestone-1/
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/eduardacandido/Milestone-1/
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
@@ -290,10 +261,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
--  All content was written by the developer.
+All content was written by the developer.
 
 ### Acknowledgements
 
--  My Mentor for continuous helpful feedback and guiding.
+My Mentor [Malia Havlicek](https://github.com/maliahavlicek) for continuous helpful feedback and guiding.
 
--  Tutor support at Code Institute for their support.
+This project is for educational use only and was created for the Code Institute Module of User Centric front end development
+
+Created by Eduarda Candido
