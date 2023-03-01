@@ -231,7 +231,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
 ![image](https://user-images.githubusercontent.com/101809642/222024889-acf3a59e-f947-4318-bca1-846c030b88f6.png)
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
     
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section button on the left.
 ![image](https://user-images.githubusercontent.com/101809642/222024983-8fc0644c-8bd1-4c08-a176-2becddcbd62c.png)
