@@ -70,7 +70,9 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 ### About section
 -  Has 4 subsections commonly seen on resumes in card like format with variation and width to maximize use of space
--  Candidate's personal details section providing contact information which takes full width no matter the device
+-  Candidate's personal details section providing contact information which takes full width no matter the device.
+-  Personal contact details as email and phone links are set to open on email app and phone respectively.
+-  Address link will open on maps. 
 -  Skills section takes 50% with on desktop, 100% on smaller devices
 -  Education section takes 50% on desktop, 100% on smaller devices
 -  Work History - full width subsection as content in this tends to be wordier
@@ -209,7 +211,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ![image](https://user-images.githubusercontent.com/101809642/222088517-0edeafb5-8eab-471e-ae34-7bf617562687.png)
 
 -   Iphone 5/SE
-![image](https://user-images.githubusercontent.com/101809642/222091306-f9d96657-0720-4b60-afd3-bdcb6b6cc78a.png)
+-  ![image](https://user-images.githubusercontent.com/101809642/222091306-f9d96657-0720-4b60-afd3-bdcb6b6cc78a.png)
 ![image](https://user-images.githubusercontent.com/101809642/222091151-6102fe8b-7bb5-47af-95ef-3914ea5ea8b2.png)
 ![image](https://user-images.githubusercontent.com/101809642/222090735-051d467c-5f69-40ab-b787-aa3e9127a1ec.png)
 ![image](https://user-images.githubusercontent.com/101809642/222091010-6c9c47f1-dbf0-4e3e-af68-3e8f8c0de8a2.png)
