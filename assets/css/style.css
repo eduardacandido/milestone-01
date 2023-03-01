@@ -416,7 +416,7 @@ footer {
 }
 
 #btn-sticky {
-        padding: 5px;
+        padding: 7px;
         font-size: 0.9rem;
         font-weight: 500;
         margin-left: 20px;
@@ -477,14 +477,18 @@ footer {
 /*tablets or medium devices*/
 
 @media screen and (min-width: 768px) {
+
+        /*general*/
         .col {
                 flex: 1;
         }
 
+        /*navbar*/
         #menu-links a {
                 font-size: 1.1rem;
         }
 
+        /*Home Page*/
         #bg-header {
                 height: 550px;
         }
@@ -493,10 +497,12 @@ footer {
                 font-size: 2.2rem;
         }
 
+        /*general sections boxes*/
         .section {
                 width: 90%;
         }
 
+        /*Titles name & profession*/
         .section h1 {
                 font-size: 2.2rem;
         }
@@ -510,11 +516,13 @@ footer {
                 font-size: 1.7rem;
         }
 
+         /*personal details list (labels and information)*/
         .list-personal {
                 text-indent: 40%;
                 font-size: 1rem;
         }
 
+        /*about section*/
         .about-section {
                 padding: 30px 0;
         }
@@ -542,12 +550,14 @@ footer {
                 margin: 0 0 50px 0;
         }
 
+        /*project & contact titles*/
         .titles {
                 width: 100%;
                 margin: 50px auto;
                 font-size: 1.6rem;
         }
 
+        /*project*/
         #project-container {
                 width: 70%;
                 max-width: none;
@@ -558,6 +568,7 @@ footer {
                 max-width: none;
         }
 
+        /*footer*/
         #footer-copyright {
                 padding: 20px 0;
         }
@@ -569,9 +580,10 @@ footer {
 
 }
 
-/*laptop, desktop & large devices*/
+/*laptop & desktop*/
 
 @media screen and (min-width: 1024px) {
+        /*general*/
         .col {
                 flex: 1;
         }
@@ -580,7 +592,139 @@ footer {
                 max-width: 900px;
         }
 
+        /*general section containers and about section*/
         .section, #about-section {
                 width: 100%;
         }
+}
+
+/*larger devices*/
+
+@media screen and (min-width: 2000px) {
+
+        /*general*/
+        .col {
+                flex: 1;
+        }
+
+        main {
+                max-width: 1200px;
+        }
+
+        /*navbar*/
+        #logo {
+                font-size: 2.2rem;
+        }
+
+        #menu-links a {
+                font-size: 2rem; 
+        }
+
+        /*Home Page*/
+        #bg-header {
+                height: 1200px;
+        }
+
+        #bg-text {
+                font-size: 4rem;
+        }
+
+        #profile-picture {
+                width: 400px;
+                height: 400px;
+        }
+
+        /*general sections boxes*/
+        .section {
+                padding-top: 50px;
+                padding-bottom: 50px;
+                border-radius: 10px;
+        }
+
+        /*Titles name & profession*/
+        .section h1 {
+                font-size: 3.2rem;
+        }
+
+        .section h2 {
+                font-size: 2.4rem;
+        }
+
+        .section h3 {
+                font-weight: normal;
+                font-size: 2.7rem;
+        }
+
+         /*personal details list (labels and information)*/
+        .list-personal {
+                font-size: 1.5rem;
+        }
+
+        /*about section*/
+        .about-section {
+                padding: 50px 20px;
+                font-size: 1.5rem;
+        }
+
+        #spacer {
+                width: 50px;
+        }
+
+        #about-section h3, #work-section h3 {
+                font-size: 2rem;
+        }
+
+        /*project & contact titles*/
+        .titles {
+                font-size: 2.6rem;
+        }
+
+        /*project*/
+        .project-link a {
+                font-size: 1.5rem;
+        }
+
+        /*form*/
+        #form {
+                max-width: 500px;
+        }
+
+        .form-label {
+                font-size: 1.5rem;
+        }
+
+        #submit-btn {
+                width: 250px;
+                margin: auto;
+        }
+
+        .btn {
+                font-size: 1.5rem;
+        }
+
+        /*footer*/
+        .footer-section p {
+                font-size: 1.5rem;
+        }
+
+        .footer-section img {
+                width: 40px;
+                height: 40px;
+        }
+
+        #footer-copyright {
+                padding: 20px 0;
+        }
+
+        #footer-copyright p {
+                line-height: 1.3rem;
+                font-size: 1.2rem;
+        }
+
+        /*Download CV sticky button*/
+        #btn-sticky {
+                font-size: 1.5rem;
+                margin-left: 50px;
+        }
+
 }
