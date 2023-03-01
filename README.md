@@ -88,6 +88,7 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 -  Validation of user input on fields is done to ensure email is entered
 -  All fields are required to be populated before submitting the form
 -  Fields are big enough for friendly interaction on mobile devices
+-  Fields present a darker bordering hover state
 -  Form takes user to thankyou page, so it seems like they remain on site vs form dump
 -  Button has hover state to better key it’s clickable to users
 -  ![image](https://user-images.githubusercontent.com/101809642/222017212-1907fd65-a57f-4b31-b632-eb109d0a2e2a.png)
@@ -155,10 +156,10 @@ It is designed to be responsibe and accessible on a range of devices, making it 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--  [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  - 
+-  [W3C Markup Validator](https://validator.w3.org/)  - 
 -  ![image](https://user-images.githubusercontent.com/101809642/222085431-b7558d90-3702-4811-97c1-b6ef15df8473.png)
 
--  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+-  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) 
 -  ![image](https://user-images.githubusercontent.com/101809642/221340288-d49a0255-7a78-4be2-92f1-4c416517d16b.png)
 
 -  [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) 
@@ -195,21 +196,47 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   As a user I want to be able to access this website on my mobile device or table.
     -   The website is completely responsive and can be accessed from any device.
 
+### Responsiveness Testing
+
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE, large TV screen and simulators.
+
+![image](https://user-images.githubusercontent.com/101809642/222088925-08825127-376d-4e16-b77d-beeadab1f4bc.png)
+
+![image](https://user-images.githubusercontent.com/101809642/222089215-b6e7e854-5108-4ee6-9a06-e955bbc368c1.png)
+
+![image](https://user-images.githubusercontent.com/101809642/222088517-0edeafb5-8eab-471e-ae34-7bf617562687.png)
+
+![image](https://user-images.githubusercontent.com/101809642/222091306-f9d96657-0720-4b60-afd3-bdcb6b6cc78a.png)
+![image](https://user-images.githubusercontent.com/101809642/222091151-6102fe8b-7bb5-47af-95ef-3914ea5ea8b2.png)
+![image](https://user-images.githubusercontent.com/101809642/222090735-051d467c-5f69-40ab-b787-aa3e9127a1ec.png)
+![image](https://user-images.githubusercontent.com/101809642/222091010-6c9c47f1-dbf0-4e3e-af68-3e8f8c0de8a2.png)
+
+### Browser Compatibility
+
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
+
+-   [Google Chrome](https://www.google.com/intl/en_uk/chrome/)
+![image](https://user-images.githubusercontent.com/101809642/222092648-f238ed96-6272-40e6-ba5b-0b69a5c7d877.png)
+
+-   [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ)
+![image](https://user-images.githubusercontent.com/101809642/222094314-331a93f9-6e67-4c36-8704-db1428195479.png)
+
+-   [Safari](https://support.apple.com/en_GB/downloads/safari)
+![image](https://user-images.githubusercontent.com/101809642/222095758-a55f7db3-ced5-437a-92da-0c6b2f765cd8.png)
+
 ### Further Testing
 
--  The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--  The website was viewed on a variety of devices such as Desktop, Laptop, Motorola G10, Samsung S20FE, large TV screen and simulators.
--  A large amount of testing was done to ensure that all pages sections were linking correctly.
--  Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   A large amount of testing was done to ensure that all pages sections were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Fixed Bugs
 
 The original plan of this site was to have a multi page site, homepage, about, projects, contact. During the development and testing of the site it was found to be distracting for the user to be navigating to a page with small sections. The overall plan of a multi plan website was adjusted to make a single page application that would hold all of the necessary content and easy to access information on the one page. Although the site was originally planned to be multi page, the overall project kept the same concepts and layout just placed on one page.
 
--  [Burger Menu Responsiveness on small devices issue](https://github.com/eduardacandido/milestone-01/issues/1)
--  [Navbar burger won't close on click](https://github.com/eduardacandido/milestone-01/issues/2)
--  [Empty line on left of website on small mobile devices](https://github.com/eduardacandido/milestone-01/issues/3)
--  [Not responsive cards on about section](https://github.com/eduardacandido/milestone-01/issues/4)
+-   [Burger Menu Responsiveness on small devices issue](https://github.com/eduardacandido/milestone-01/issues/1)
+-   [Navbar burger won't close on click](https://github.com/eduardacandido/milestone-01/issues/2)
+-   [Empty line on left of website on small mobile devices](https://github.com/eduardacandido/milestone-01/issues/3)
+-   [Not responsive cards on about section](https://github.com/eduardacandido/milestone-01/issues/4)
 
 ## Deployment
 
@@ -239,36 +266,36 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Credits
 
--  The background image used on the Home and Contact page were taken from 
-        -  [Unsplash](https://unsplash.com/), photo by [Rasmus Gundorff Sæderup](https://unsplash.com/@rasmusgs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
-        -  All other media used on the website were created by the developer.
+-   The background image used on the Home and Contact page were taken from 
+        -   [Unsplash](https://unsplash.com/), photo by [Rasmus Gundorff Sæderup](https://unsplash.com/@rasmusgs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+        -   All other media used on the website were created by the developer.
 
--  Favicon and all icons used on the site taken from 
-        -  [Fontawesome](https://fontawesome.com/).
+-   Favicon and all icons used on the site taken from 
+        -   [Fontawesome](https://fontawesome.com/).
 
--  Readme template/inspiration taken from 
-        -  [Code Institute Solutions - readme-template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
-        -  [Code Institute Solutions - SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
-        -  [Nemisu - Stephen Seagrave - Milestone1](https://github.com/nemixu/Milestone1/blob/master/README.md)
-        -  Mentor's Guide Readme
+-   Readme template/inspiration taken from 
+        -   [Code Institute Solutions - readme-template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+        -   [Code Institute Solutions - SampleREADME](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md)
+        -   [Nemisu - Stephen Seagrave - Milestone1](https://github.com/nemixu/Milestone1/blob/master/README.md)
+        -   Mentor's Guide Readme
 
--  Original wireframes were created with [Balsamiq](https://balsamiq.com/wireframes/)
+-   Original wireframes were created with [Balsamiq](https://balsamiq.com/wireframes/)
 
 ### Code
 
--  [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): 
-        -  Bootstrap Library used throughout the project mainly for navigation bar and to make site responsive.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): 
+        -   Bootstrap Library used throughout the project mainly for navigation bar and to make site responsive.
 
--  [Dave Atchley's post on Medium](https://medium.com/dailyjs/mimicking-bootstraps-collapse-with-vanilla-javascript-b3bb389040e7):
-        -  This script was taken directly from the blog to solve mobile navigation toggle.
+-   [Dave Atchley's post on Medium](https://medium.com/dailyjs/mimicking-bootstraps-collapse-with-vanilla-javascript-b3bb389040e7):
+        -   This script was taken directly from the blog to solve mobile navigation toggle.
 
 ### Content
 
-All content was written by the developer.
+-   All content was written by the developer.
 
 ### Acknowledgements
 
-My Mentor [Malia Havlicek](https://github.com/maliahavlicek) for continuous helpful feedback and guiding.
+-   My Mentor [Malia Havlicek](https://github.com/maliahavlicek) for continuous helpful feedback and guiding.
 
 
 
